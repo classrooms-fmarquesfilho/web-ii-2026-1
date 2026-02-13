@@ -14,13 +14,6 @@ Se você está fazendo o **[curso básico "Aprenda Go com Testes"](https://githu
 | Git | 2.40+ | Sim |
 | Editor de código | - | Sim |
 
-Execute o script de verificação no repositório do curso básico:
-
-```bash
-cd aprenda-go-com-testes/scripts/check-env
-go run main.go
-```
-
 ---
 
 ## Curso Web II - Verificação Rápida
