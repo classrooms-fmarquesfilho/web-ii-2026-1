@@ -115,6 +115,29 @@ Canais principais:
 
 Embora já possuir esses conhecimentos facilite a aprendizagem neste curso, saiba que iremos abordar cada tópico do início, então não se preocupe!
 
+### Curso Básico de Go (Pré-requisito Recomendado)
+
+**Antes de começar este curso**, é altamente recomendado que você complete o **curso básico de Go**, que cobre os fundamentos da linguagem através da metodologia TDD:
+
+📚 **[Aprenda Go com Testes](https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes)**
+
+**Conteúdo coberto no curso básico:**
+- Sintaxe fundamental de Go (variáveis, funções, tipos)
+- Test-Driven Development (TDD) com Go
+- Estruturas de dados (arrays, slices, maps, structs)
+- Ponteiros e tratamento de erros
+- Interfaces e polimorfismo
+- Testes unitários e de integração
+
+**Por que fazer o curso básico primeiro?**
+- Este curso (Web II) assume familiaridade com a sintaxe de Go
+- Começamos direto com `net/http` e desenvolvimento web
+- O curso básico estabelece fundamentos de TDD que usaremos extensivamente
+
+**Já tem experiência com Go?** Se você já tem experiência com Go, o curso básico pode não ser necessário.
+
+**Não conseguiu fazer o curso básico ainda?** Os vídeos semanais podem incluir revisões rápidas do conteúdo do curso básico para facilitar o entendimento. No entanto, saiba que você pode precisar dedicar tempo extra para estudar aspectos da linguagem Go para acompanhar as aulas de web.
+
 ### Ambiente de Desenvolvimento
 
 ```bash

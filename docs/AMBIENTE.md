@@ -4,7 +4,26 @@ Este guia detalha a instalação e configuração de todas as ferramentas necess
 
 ---
 
-## Verificação Rápida
+## Curso Básico de Go
+
+Se você está fazendo o **[curso básico "Aprenda Go com Testes"](https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes)** antes de Web II, você só precisa de:
+
+| Ferramenta | Versão | Obrigatório |
+|------------|--------|-------------|
+| Go | 1.23+ | Sim |
+| Git | 2.40+ | Sim |
+| Editor de código | - | Sim |
+
+Execute o script de verificação no repositório do curso básico:
+
+```bash
+cd aprenda-go-com-testes/scripts/check-env
+go run main.go
+```
+
+---
+
+## Curso Web II - Verificação Rápida
 
 Use o script de verificação para saber o que já está instalado:
 

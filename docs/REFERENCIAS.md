@@ -4,6 +4,16 @@
 
 ---
 
+## Curso Básico de Go (Pré-requisito)
+
+| Recurso | URL | Descrição |
+|---------|-----|-----------|
+| **Aprenda Go com Testes** | https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes | Curso básico oficial da disciplina (usando TDD) |
+| **Learn Go with Tests (original)** | https://quii.gitbook.io/learn-go-with-tests/ | Versão original em inglês |
+| **Learn Go with Tests (PT-BR)** | https://larien.gitbook.io/aprenda-go-com-testes/ | Tradução para português |
+
+---
+
 ## Documentação Oficial
 
 | Recurso | URL | Descrição |

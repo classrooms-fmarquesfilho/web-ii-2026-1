@@ -6,6 +6,25 @@
 
 Este curso utiliza a metodologia de **Sala de Aula Invertida (Flipped Classroom)**. Cada semana, um vídeo é disponibilizado **até domingo às 20h** para que você assista **antes das aulas presenciais** de terça e quinta-feira.
 
+### Pré-requisito: Curso Básico de Go
+
+**Antes de começar os vídeos de Web II**, complete o curso básico:
+
+📚 **[Aprenda Go com Testes](https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes)**
+
+**Tópicos essenciais do curso básico para Web II:**
+
+| Capítulo | Tópico | Por que é importante para Web II |
+|----------|--------|----------------------------------|
+| 1-2 | Hello World + Integers | Sintaxe básica, funções, testes |
+| 3-5 | Iteration + Arrays/Slices | Manipulação de coleções (comum em APIs) |
+| 6 | Structs, Methods, Interfaces | base para handlers HTTP |
+| 7 | Pointers & Errors | tratamento de erros em APIs |
+| 8 | Maps | Dados JSON, configurações |
+| 9-10 | Dependency Injection + Mocking | arquitetura testável |
+
+**Tempo estimado**: 2-3 semanas de estudo (2-3h/dia)
+
 ### Como Aproveitar os Vídeos
 
 1. **Assista com atenção** - Pause e volte quando necessário
