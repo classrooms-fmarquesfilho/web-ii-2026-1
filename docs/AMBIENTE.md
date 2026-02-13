@@ -14,6 +14,13 @@ Se você está fazendo o **[curso básico "Aprenda Go com Testes"](https://githu
 | Git | 2.40+ | Sim |
 | Editor de código | - | Sim |
 
+**Verificação rápida** (no diretório de cada exercício do curso básico):
+```bash
+go version  # Deve mostrar 1.23 ou superior
+git --version
+go test     # Deve rodar os testes
+```
+
 ---
 
 ## Curso Web II - Verificação Rápida
