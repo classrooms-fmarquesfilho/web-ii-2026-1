@@ -50,7 +50,7 @@ O script verifica as ferramentas necessárias para cada unidade e indica o que e
 
 | Ferramenta | Versão | Obrigatório |
 |------------|--------|-------------|
-| Go | 1.25+ | ✅ Sim |
+| Go | 1.26+ | ✅ Sim |
 | Git | 2.40+ | ✅ Sim |
 | golangci-lint | latest | ✅ Sim |
 | VS Code (ou editor) | - | ✅ Sim |
@@ -82,8 +82,8 @@ O script verifica as ferramentas necessárias para cada unidade e indica o que e
 sudo rm -rf /usr/local/go
 
 # Download e instalação (substitua pela versão mais recente)
-wget https://go.dev/dl/go1.25.7.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.25.7.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.26.0.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.26.0.linux-amd64.tar.gz
 
 # Adicionar ao PATH (~/.bashrc ou ~/.zshrc)
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
