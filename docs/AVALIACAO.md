@@ -546,7 +546,8 @@ O documento deve conter:
 - [ ] Cache (Redis) (+4%)
 - [ ] WebSockets (+3%)
 - [ ] testing/synctest para testes de concorrência (+3%)
-- [ ] sync.WaitGroup.Go() no código (+2%)
+- [ ] `sync.WaitGroup.Go()` no código (+2%)
+- [ ] `errors.AsType` para tratamento de erros type-safe (+1%)
 
 ---
 
