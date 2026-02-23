@@ -39,11 +39,11 @@
 |------|-----|------|-----------|
 | 01/03 | Dom | 📺 | **Vídeo 1**: Apresentação do curso + Por que Go? |
 | 03/03 | Ter | 🟢 | Discussão do vídeo + Arquitetura cliente-servidor |
-| 05/03 | Qui | 🟢 | Setup do ambiente + Hello World em Go |
+| 05/03 | Qui | 📺 | Sem aula presencial — assista aos vídeos do **[Curso Básico de Go](https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes)** se ainda não tiver familiaridade com a linguagem |
 
 **Conteúdo**: Motivação, ecossistema Go, arquitetura web, setup  
 **Entregas**: Nenhuma (semana de ambientação)  
-**Importante**: Formação dos grupos de projeto até 12/03
+**Importante**: Formação dos grupos de projeto até 12/03. Quinta 05/03 sem aula presencial — aproveite para avançar no curso básico de Go.
 
 ---
 
@@ -66,11 +66,11 @@
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 15/03 | Dom | 📺 | **Vídeo 3**: Go 1.22+ roteamento avançado + Middleware |
+| 15/03 | Dom | 📺 | **Vídeo 3**: Roteamento com a stdlib moderna + Middleware |
 | 17/03 | Ter | 🟢 | Revisão + Prática: implementando middlewares |
 | 19/03 | Qui | 🟢 | Context + Padrões de tratamento de erros |
 
-**Conteúdo**: Go 1.22 routing, middleware pattern, context  
+**Conteúdo**: Roteamento com método+path no ServeMux, wildcards, middleware pattern, context  
 **Entregas**: 📝 Lista 2 (net/http + middleware) - até 20/03 (sex)
 
 ---
@@ -190,7 +190,7 @@
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 17/05 | Dom | 📺 | **Vídeo 11**: Docker multi-stage + CI/CD + Go 1.25 em containers |
+| 17/05 | Dom | 📺 | **Vídeo 11**: Docker multi-stage + CI/CD + GOMAXPROCS container-aware (Go 1.25+) |
 | 19/05 | Ter | 🟢 | Revisão + Prática: Dockerizando o projeto |
 | 21/05 | Qui | 🔵 | **Acompanhamento Online** - Sprint 4 |
 
