@@ -44,7 +44,7 @@ Este curso utiliza a metodologia de **Sala de Aula Invertida (Flipped Classroom)
 ### Visão Geral
 
 - **Fundamentos**: 3 semanas de `net/http` puro antes de introduzir Chi
-- **Go 1.22+**: Aproveitamento das melhorias de roteamento nativo (métodos e parâmetros no ServeMux)
+- **Go stdlib**: Aproveitamento das melhorias de roteamento nativo (métodos e parâmetros no ServeMux, disponíveis desde Go 1.22)
 - **Chi como camada**: Router 100% compatível com net/http, preservando conhecimento transferível
 - **Exposição a GraphQL**: 1 semana dedicada ao paradigma alternativo
 - **Banco de dados idiomático**: [sqlc](https://sqlc.dev) - SQL real com type-safety em tempo de compilação
@@ -141,8 +141,8 @@ Embora já possuir esses conhecimentos facilite a aprendizagem neste curso, saib
 ### Ambiente de Desenvolvimento
 
 ```bash
-# Go 1.25+
-go version  # go1.25.0 ou superior
+# Go 1.26+
+go version  # go1.26.0 ou superior
 
 # PostgreSQL 18
 psql --version
