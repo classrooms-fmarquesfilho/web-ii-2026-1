@@ -19,7 +19,7 @@
 | Recurso | URL | Descrição |
 |---------|-----|-----------|
 | **Go Documentation** | https://go.dev/doc/ | Documentação oficial |
-| **Go 1.25 Release Notes** | https://go.dev/doc/go1.25 | Novidades da versão atual |
+| **Go 1.26 Release Notes** | https://go.dev/doc/go1.26 | Novidades da versão atual |
 | **Effective Go** | https://go.dev/doc/effective_go | Guia de boas práticas |
 | **Tour of Go** | https://go.dev/tour/ | Tutorial interativo oficial |
 | **Go by Example** | https://gobyexample.com/ | Exemplos práticos anotados |
@@ -40,14 +40,17 @@
 
 ---
 
-## Go 1.25
+## Go 1.25 e 1.26
 
 | Recurso | URL |
 |---------|-----|
+| **Go 1.25 Release Notes** | https://go.dev/doc/go1.25 |
+| **Go 1.26 Release Notes** | https://go.dev/doc/go1.26 |
 | **testing/synctest** | https://pkg.go.dev/testing/synctest |
 | **sync.WaitGroup.Go()** | https://pkg.go.dev/sync#WaitGroup.Go |
 | **slog (logging)** | https://pkg.go.dev/log/slog |
 | **errgroup** | https://pkg.go.dev/golang.org/x/sync/errgroup |
+| **errors.AsType (Go 1.26)** | https://pkg.go.dev/errors#AsType |
 
 ---
 
@@ -71,7 +74,7 @@
 ### Unidade 1: Fundamentos
 
 - [Tour of Go](https://go.dev/tour/) — Obrigatório
-- [Go 1.22+ Routing](https://go.dev/blog/routing-enhancements) — Melhorias no ServeMux
+- [Roteamento no ServeMux (Go 1.22+)](https://go.dev/blog/routing-enhancements) — Melhorias no ServeMux (métodos, wildcards)
 - [Chi Documentation](https://go-chi.io/)
 
 ### Unidade 2: Persistência e Testes
