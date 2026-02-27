@@ -28,7 +28,9 @@ Este curso utiliza a metodologia de **Sala de Aula Invertida (Flipped Classroom)
 | Semana | Disponível em | Vídeo | Tópicos |
 |--------|---------------|-------|---------|
 | 1 | 01/03 (Dom) | **Vídeo 1**: Apresentação do curso + Por que Go? | Motivação, ecossistema, cases no Brasil, arquitetura cliente-servidor |
-| 2 | 08/03 (Dom) | **Vídeo 2**: O pacote net/http - Handler e ServeMux | http.Handler, HandlerFunc, ServeMux, Request/Response |
+| 2 | 08/03 (Dom) | **Vídeo 2a**: O pacote net/http — Handlers, httptest e Query Params | http.Handler, HandlerFunc, httptest, query params, TDD |
+| 2 | 08/03 (Dom) | **Vídeo 2b**: O pacote net/http — Maps, ServeMux e JSON | maps, for range, interface{}, ServeMux, encoding/json |
+| 2 | 08/03 (Dom) | **Vídeo 2c**: GitHub Classroom — Submissão e autograding | init(), DefaultServeMux, classroom.yml, aba Actions |
 | 3 | 15/03 (Dom) | **Vídeo 3**: Roteamento com a stdlib + Middleware | Roteamento com método+path no ServeMux, wildcards, padrão middleware, cadeia de handlers |
 | 4 | 22/03 (Dom) | **Vídeo 4**: JSON em Go + Introdução ao Chi | encoding/json, struct tags, validator, Chi router, ponteiros em structs (`new()` com expressões — Go 1.26) |
 | 5 | 29/03 (Dom) | **Vídeo 5**: Chi em profundidade + OpenAPI | Grupos de rotas, middleware por grupo, swaggo |
