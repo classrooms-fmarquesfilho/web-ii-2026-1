@@ -51,13 +51,15 @@
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 08/03 | Dom | 📺 | **Vídeo 2**: O pacote net/http - Handler e ServeMux |
+| 08/03 | Dom | 📺 | **Vídeo 2a**: O pacote net/http — Handlers, httptest e Query Params |
+| 08/03 | Dom | 📺 | **Vídeo 2b**: O pacote net/http — Maps, ServeMux e JSON |
+| 08/03 | Dom | 📺 | **Vídeo 2c**: GitHub Classroom — Submissão e autograding |
 | 10/03 | Ter | 🟢 | Revisão + Prática: criando handlers |
 | 12/03 | Qui | 🔵 | **Acompanhamento Online** - Dúvidas de ambiente + formação de grupos |
 
-**Conteúdo**: http.Handler, HandlerFunc, ServeMux, Request/Response  
+**Conteúdo**: http.Handler, HandlerFunc, httptest, ServeMux, maps, JSON, Request/Response  
 **Entregas**: 
-- 📝 Lista 1 (net/http básico) - até 13/03 (sex)
+- 📝 Lista 1 (net/http básico) - até 20/03 (sex)
 - Grupos formados no Discord até 12/03
 
 ---
@@ -71,7 +73,7 @@
 | 19/03 | Qui | 🟢 | Context + Padrões de tratamento de erros |
 
 **Conteúdo**: Roteamento com método+path no ServeMux, wildcards, middleware pattern, context  
-**Entregas**: 📝 Lista 2 (net/http + middleware) - até 20/03 (sex)
+**Entregas**: 📝 Lista 2 (net/http + middleware) - até 27/03 (sex)
 
 ---
 
@@ -270,8 +272,8 @@
 
 | Lista | Conteúdo | Prazo | Peso |
 |-------|----------|-------|------|
-| Lista 1 | net/http básico | 13/03 (sex) | 15% |
-| Lista 2 | net/http + middleware | 20/03 (sex) | 15% |
+| Lista 1 | net/http básico | 20/03 (sex) | 15% |
+| Lista 2 | net/http + middleware | 27/03 (sex) | 15% |
 | Lista 3 | Chi + OpenAPI | 03/04 (sex) | 20% |
 | Lista 4 | sqlc + Clean Architecture | 17/04 (sex) | 20% |
 | Lista 5 | Autenticação | 01/05 (sex) | 15% |

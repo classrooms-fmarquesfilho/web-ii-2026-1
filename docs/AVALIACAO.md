@@ -37,8 +37,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 
 | Lista | Conteúdo | Prazo | Unidade |
 |-------|----------|-------|---------|
-| Lista 1 | net/http básico | 13/03 (sex) | U1 |
-| Lista 2 | net/http + middleware | 20/03 (sex) | U1 |
+| Lista 1 | net/http básico | 20/03 (sex) | U1 |
+| Lista 2 | net/http + middleware | 27/03 (sex) | U1 |
 | Lista 3 | Chi + OpenAPI | 03/04 (sex) | U1 |
 | Lista 4 | sqlc + Clean Architecture | 17/04 (sex) | U2 |
 | Lista 5 | Autenticação | 01/05 (sex) | U2 |
