@@ -38,12 +38,9 @@
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
 | 01/03 | Dom | 📺 | **Vídeo 1**: Apresentação do curso + Por que Go? |
-| 03/03 | Ter | 🟢 | Discussão do vídeo + Arquitetura cliente-servidor |
-| 05/03 | Qui | 📺 | Sem aula presencial — assista aos vídeos do **[Curso Básico de Go](https://github.com/classrooms-fmarquesfilho/aprenda-go-com-testes)** se ainda não tiver familiaridade com a linguagem |
 
 **Conteúdo**: Motivação, ecossistema Go, arquitetura web, setup  
 **Entregas**: Nenhuma (semana de ambientação)  
-**Importante**: Formação dos grupos de projeto até 12/03. Quinta 05/03 sem aula presencial — aproveite para avançar no curso básico de Go.
 
 ---
 
@@ -53,14 +50,8 @@
 |------|-----|------|-----------|
 | 08/03 | Dom | 📺 | **Vídeo 2a**: O pacote net/http — Handlers, httptest e Query Params |
 | 08/03 | Dom | 📺 | **Vídeo 2b**: O pacote net/http — Maps, ServeMux e JSON |
-| 08/03 | Dom | 📺 | **Vídeo 2c**: GitHub Classroom — Submissão e autograding |
-| 10/03 | Ter | 🟢 | Revisão + Prática: criando handlers |
-| 12/03 | Qui | 🔵 | **Acompanhamento Online** - Dúvidas de ambiente + formação de grupos |
 
 **Conteúdo**: http.Handler, HandlerFunc, httptest, ServeMux, maps, JSON, Request/Response  
-**Entregas**: 
-- 📝 Lista 1 (net/http básico) - até 20/03 (sex)
-- Grupos formados no Discord até 12/03
 
 ---
 
@@ -73,7 +64,6 @@
 | 19/03 | Qui | 🟢 | Context + Padrões de tratamento de erros |
 
 **Conteúdo**: Roteamento com método+path no ServeMux, wildcards, middleware pattern, context  
-**Entregas**: 📝 Lista 2 (net/http + middleware) - até 27/03 (sex)
 
 ---
 
@@ -85,8 +75,9 @@
 | 24/03 | Ter | 🟢 | Revisão + Prática: validação com go-playground/validator |
 | 26/03 | Qui | 🔵 | **Acompanhamento Online** - Sprint 0 (Proposta do projeto) |
 
-**Conteúdo**: encoding/json, struct tags, validator, Chi router  
-**Entregas**: 🚀 Sprint 0 - Proposta do projeto (vídeo 5min) - até 26/03
+**Conteúdo**: encoding/json, struct tags, validator, Chi router
+**Entregas**: 
+- 📝 Lista 1 (net/http básico) - até 27/03 (sex)
 
 ---
 
@@ -99,9 +90,9 @@
 | 02/04 | Qui | 🔴 | **Quinta-feira Santa** - Sem aula |
 
 **Conteúdo**: Grupos de rotas, subrouters, swaggo/swag  
-**Entregas**: 
-- 📝 Lista 3 (Chi + OpenAPI) - até 03/04 (sex)
-- 🚀 **Entrega U1** (Listas 1-3 + Sprint 0) - até 03/04 (sex)
+**Entregas** até 03/04 (sex): 
+- 📝 Lista 2 (net/http + middleware)
+- 🚀 Sprint 0 - Proposta do projeto (vídeo 5min)
 
 ---
 
@@ -115,8 +106,8 @@
 | 07/04 | Ter | 🟢 | Revisão + Prática: primeiras queries com sqlc |
 | 09/04 | Qui | 🔵 | **Acompanhamento Online** - Sprint 1 |
 
-**Conteúdo**: SQL vs ORM, sqlc config, queries type-safe  
-**Entregas**: 🚀 Sprint 1 (vídeo 8min) - até 10/04 (sex)
+**Conteúdo**: SQL vs ORM, sqlc config, queries type-safe 
+**Entregas**: 📝 Lista 3 (Chi + OpenAPI) - até 10/04 (sex) 
 
 ---
 
@@ -129,7 +120,7 @@
 | 16/04 | Qui | 🟢 | Prática: Estruturando o projeto |
 
 **Conteúdo**: Atlas migrations, camadas, inversão de dependência  
-**Entregas**: 📝 Lista 4 (sqlc + Clean Architecture) - até 17/04 (sex)
+**Entregas**: 📝 Lista 4 (sqlc + Clean Architecture) + 🚀 Sprint 1 (vídeo 8min) - até 17/04 (sex)
 
 ---
 
@@ -272,9 +263,9 @@
 
 | Lista | Conteúdo | Prazo | Peso |
 |-------|----------|-------|------|
-| Lista 1 | net/http básico | 20/03 (sex) | 15% |
-| Lista 2 | net/http + middleware | 27/03 (sex) | 15% |
-| Lista 3 | Chi + OpenAPI | 03/04 (sex) | 20% |
+| Lista 1 | net/http básico | 27/03 (sex) | 15% |
+| Lista 2 | net/http + middleware | 03/04 (sex) | 15% |
+| Lista 3 | Chi + OpenAPI | 10/04 (sex) | 20% |
 | Lista 4 | sqlc + Clean Architecture | 17/04 (sex) | 20% |
 | Lista 5 | Autenticação | 01/05 (sex) | 15% |
 | Lista 6 | CI/CD | 22/05 (sex) | 15% |
@@ -283,8 +274,8 @@
 
 | Sprint | Conteúdo | Prazo | Duração Vídeo |
 |--------|----------|-------|---------------|
-| Sprint 0 | Proposta do projeto | 26/03 (qui) | 5 min |
-| Sprint 1 | Endpoints básicos | 10/04 (sex) | 8 min |
+| Sprint 0 | Proposta do projeto | 03/04 (qui) | 5 min |
+| Sprint 1 | Endpoints básicos | 17/04 (sex) | 8 min |
 | Sprint 2 | Persistência | 24/04 (sex) | 8 min |
 | Sprint 3 | Autenticação | 08/05 (sex) | 8 min |
 | Sprint 4 | CI/CD + Deploy | 22/05 (sex) | 8 min |
@@ -294,7 +285,7 @@
 
 | Unidade | Prazo | Componentes |
 |---------|-------|-------------|
-| U1 | 03/04 (sex) | Listas 1-3 + Sprint 0 |
+| U1 | 10/04 (sex) | Listas 1-3 + Sprint 0 |
 | U2 | 08/05 (sex) | Listas 4-5 + Sprints 1-3 + Prova (12/05) |
 | U3 | 26/06 (sex) | Lista 6 + Sprints 4-5 + Apresentação Final |
 
@@ -330,15 +321,14 @@ Os acompanhamentos acontecem às quintas-feiras, alternando com aulas presenciai
 
 | # | Data | Foco |
 |---|------|------|
-| 1 | 12/03 | Dúvidas de ambiente + Formação de grupos |
-| 2 | 26/03 | Sprint 0 - Proposta do projeto |
-| 3 | 09/04 | Sprint 1 - Endpoints básicos |
-| 4 | 23/04 | Sprint 2 - Persistência |
-| 5 | 07/05 | Sprint 3 - Autenticação + Revisão para prova |
-| 6 | 21/05 | Sprint 4 - CI/CD |
-| 7 | 28/05 | Dúvidas de integração + CORS |
-| 8 | 11/06 | Sprint 5 - MVP final |
-| 9 | 25/06 | Dúvidas sobre correção e notas |
+| 1 | 03/04 | Sprint 0 - Proposta do projeto |
+| 2 | 17/04 | Sprint 1 - Endpoints básicos |
+| 3 | 23/04 | Sprint 2 - Persistência |
+| 4 | 07/05 | Sprint 3 - Autenticação + Revisão para prova |
+| 5 | 21/05 | Sprint 4 - CI/CD |
+| 6 | 28/05 | Dúvidas de integração + CORS |
+| 7 | 11/06 | Sprint 5 - MVP final |
+| 8 | 25/06 | Dúvidas sobre correção e notas |
 
 **Horário**: 13:00-14:40 (mesmo horário das aulas presenciais)  
 **Formato**: ~10 minutos por equipe para tirar dúvidas e revisar progresso.
