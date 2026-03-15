@@ -306,7 +306,7 @@
 | Data | Evento |
 |------|--------|
 | 12/03 | Prazo para formação de grupos |
-| 03/04 (sex) | Entrega U1 |
+| 10/04 (sex) | Entrega U1 |
 | 08/05 (sex) | Entrega U2 |
 | **12/05** | **PROVA PRÁTICA** |
 | 16 e 18/06 | Apresentações finais |
