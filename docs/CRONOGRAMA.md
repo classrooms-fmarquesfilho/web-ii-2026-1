@@ -2,7 +2,7 @@
 
 ## Desenvolvimento de Sistemas Web II com Go
 
-**Período**: 2026.1 (02/03/2026 a 11/07/2026)  
+**Período**: 2026.1 (17/03/2026 a 11/07/2026)  
 **Horário**: Terças e Quintas, 13:00 às 14:40 (35T12)
 
 ---
@@ -25,7 +25,7 @@
 
 | Unidade | Semanas | Período | Conteúdo Principal |
 |---------|---------|---------|-------------------|
-| **U1** | 1-5 | 02/03 - 03/04 | Fundamentos Go + net/http + Chi |
+| **U1** | 1-5 | 17/03 - 03/04 | Fundamentos Go + net/http + Chi |
 | **U2** | 6-11 | 06/04 - 14/05 | Persistência + Auth + **Prova** |
 | **U3** | 12-17 | 18/05 - 26/06 | CI/CD + GraphQL + Apresentações |
 
@@ -75,9 +75,10 @@
 | 24/03 | Ter | 🟢 | Revisão + Prática: validação com go-playground/validator |
 | 26/03 | Qui | 🔵 | **Acompanhamento Online** - Sprint 0 (Proposta do projeto) |
 
-**Conteúdo**: encoding/json, struct tags, validator, Chi router
-**Entregas**: 
+**Conteúdo**: encoding/json, struct tags, validator, Chi router  
+**Entregas**:
 - 📝 Lista 1 (net/http básico) - até 27/03 (sex)
+- 🚀 Sprint 0 - Proposta do projeto (vídeo 5min) - até 26/03 (qui)
 
 ---
 
@@ -90,9 +91,8 @@
 | 02/04 | Qui | 🔴 | **Quinta-feira Santa** - Sem aula |
 
 **Conteúdo**: Grupos de rotas, subrouters, swaggo/swag  
-**Entregas** até 03/04 (sex): 
+**Entregas** até 03/04 (sex):
 - 📝 Lista 2 (net/http + middleware)
-- 🚀 Sprint 0 - Proposta do projeto (vídeo 5min)
 
 ---
 
@@ -106,8 +106,10 @@
 | 07/04 | Ter | 🟢 | Revisão + Prática: primeiras queries com sqlc |
 | 09/04 | Qui | 🔵 | **Acompanhamento Online** - Sprint 1 |
 
-**Conteúdo**: SQL vs ORM, sqlc config, queries type-safe 
-**Entregas**: 📝 Lista 3 (Chi + OpenAPI) - até 10/04 (sex) 
+**Conteúdo**: SQL vs ORM, sqlc config, queries type-safe  
+**Entregas**:
+- 📝 Lista 3 (Chi + OpenAPI) - até 10/04 (sex)
+- 🚀 Sprint 1 (vídeo 8min) - até 10/04 (sex)
 
 ---
 
@@ -120,7 +122,7 @@
 | 16/04 | Qui | 🟢 | Prática: Estruturando o projeto |
 
 **Conteúdo**: Atlas migrations, camadas, inversão de dependência  
-**Entregas**: 📝 Lista 4 (sqlc + Clean Architecture) + 🚀 Sprint 1 (vídeo 8min) - até 17/04 (sex)
+**Entregas**: 📝 Lista 4 (sqlc + Clean Architecture) - até 17/04 (sex)
 
 ---
 
@@ -159,7 +161,7 @@
 | 07/05 | Qui | 🔵 | **Acompanhamento Online** - Sprint 3 + Revisão para prova |
 
 **Conteúdo**: OWASP Top 10, rate limiting, input validation  
-**Entregas**: 
+**Entregas**:
 - 🚀 Sprint 3 (vídeo 8min) - até 08/05 (sex)
 - 🚀 **Entrega U2** (Listas 4-5 + Sprints 1-3) - até 08/05 (sex)
 
@@ -188,7 +190,7 @@
 | 21/05 | Qui | 🔵 | **Acompanhamento Online** - Sprint 4 |
 
 **Conteúdo**: Dockerfile, docker-compose, GitHub Actions, GOMAXPROCS, graceful shutdown, health checks  
-**Entregas**: 
+**Entregas**:
 - 📝 Lista 6 (CI/CD) - até 22/05 (sex)
 - 🚀 Sprint 4 (vídeo 8min) - até 22/05 (sex)
 
@@ -240,7 +242,7 @@
 | 18/06 | Qui | 🟢 | **Apresentações finais** (Grupos 7-12) |
 
 **Formato**: 12 minutos por equipe + 3 minutos de perguntas (15 min total)  
-**Entregas**: 
+**Entregas**:
 - 🚀 **Entrega U3** (Lista 6 + Projeto Final) - até 26/06 (sexta)
 
 ---
@@ -274,8 +276,8 @@
 
 | Sprint | Conteúdo | Prazo | Duração Vídeo |
 |--------|----------|-------|---------------|
-| Sprint 0 | Proposta do projeto | 03/04 (qui) | 5 min |
-| Sprint 1 | Endpoints básicos | 17/04 (sex) | 8 min |
+| Sprint 0 | Proposta do projeto | 26/03 (qui) | 5 min |
+| Sprint 1 | Endpoints básicos | 10/04 (sex) | 8 min |
 | Sprint 2 | Persistência | 24/04 (sex) | 8 min |
 | Sprint 3 | Autenticação | 08/05 (sex) | 8 min |
 | Sprint 4 | CI/CD + Deploy | 22/05 (sex) | 8 min |
@@ -305,7 +307,7 @@
 
 | Data | Evento |
 |------|--------|
-| 12/03 | Prazo para formação de grupos |
+| 19/03 | Prazo para formação de grupos |
 | 10/04 (sex) | Entrega U1 |
 | 08/05 (sex) | Entrega U2 |
 | **12/05** | **PROVA PRÁTICA** |
@@ -321,8 +323,8 @@ Os acompanhamentos acontecem às quintas-feiras, alternando com aulas presenciai
 
 | # | Data | Foco |
 |---|------|------|
-| 1 | 03/04 | Sprint 0 - Proposta do projeto |
-| 2 | 17/04 | Sprint 1 - Endpoints básicos |
+| 1 | 26/03 | Sprint 0 - Proposta do projeto |
+| 2 | 09/04 | Sprint 1 - Endpoints básicos |
 | 3 | 23/04 | Sprint 2 - Persistência |
 | 4 | 07/05 | Sprint 3 - Autenticação + Revisão para prova |
 | 5 | 21/05 | Sprint 4 - CI/CD |

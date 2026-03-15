@@ -57,7 +57,7 @@ Este curso utiliza a metodologia de **Sala de Aula Invertida (Flipped Classroom)
 - **Horário**: Terças e Quintas, 13:00 às 14:40 (35T12)
 - **Modalidade**: Presencial com Sala de Aula Invertida
 - **Carga horária**: 60 horas (15 semanas)
-- **Período**: 02/03/2026 a 11/07/2026
+- **Período**: 17/03/2026 a 11/07/2026
 
 ### Discord da Disciplina
 
