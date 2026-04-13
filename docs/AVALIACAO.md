@@ -37,30 +37,30 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 
 | Lista | Conteúdo | Prazo | Unidade |
 |-------|----------|-------|---------|
-| Lista 1 | net/http básico | 20/03 (sex) | U1 |
-| Lista 2 | net/http + middleware | 27/03 (sex) | U1 |
-| Lista 3 | Chi + OpenAPI | 03/04 (sex) | U1 |
-| Lista 4 | sqlc + Clean Architecture | 17/04 (sex) | U2 |
-| Lista 5 | Autenticação | 01/05 (sex) | U2 |
-| Lista 6 | CI/CD | 22/05 (sex) | U3 |
+| Lista 1 | net/http básico | 27/03 (sex) ✓ | U1 (Sprint 0) |
+| Lista 2 | net/http + middleware | 17/04 (sex) | U1 (Sprint 0→1) |
+| Lista 3 | Chi + OpenAPI + validator | 24/04 (sex) | U1 (Sprint 1) |
+| Lista 4 | sqlc + Clean Architecture | 02/05 (sex) | U2 (Sprint 2) |
+| Lista 5 | Testes unitários + integração | 08/05 (sex) | U2 (Sprint 2) |
+| Lista 6 | Autenticação JWT + OAuth | 15/05 (sex) | U2 (Sprint 3) |
+| Lista 7 | Deploy + Observabilidade + gRPC | 12/06 (sex) | U3 (Sprint 4) |
 
 ### Sprints do Projeto (Grupo)
 
 | Sprint | Conteúdo | Prazo | Vídeo |
 |--------|----------|-------|-------|
-| Sprint 0 | Proposta do projeto | 26/03 (qui) | 5 min |
-| Sprint 1 | Endpoints básicos | 10/04 (sex) | 8 min |
-| Sprint 2 | Persistência + testes | 24/04 (sex) | 8 min |
-| Sprint 3 | Autenticação + segurança | 08/05 (sex) | 8 min |
-| Sprint 4 | CI/CD + Deploy | 22/05 (sex) | 8 min |
-| Sprint 5 | MVP completo | 12/06 (sex) | 10 min |
+| Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
+| Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) | 8 min |
+| Sprint 2 | Persistência + Clean Arch + Testes | 08/05 (sex) | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança | 22/05 (sex) | 8 min |
+| Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | 12/06 (sex) | 10 min |
 
 ### Datas Especiais
 
 | Evento | Data | Observação |
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
-| **Prova Prática** | **12/05 (ter)** | Laboratório, 13:00-14:40 |
+| **Prova Prática** | **26/05 (ter)** | Laboratório, 13:00-14:40 |
 | Apresentações Finais | 16 e 18/06 | 12 min + 3 min perguntas |
 | Entrega Final U3 | 26/06 (sex) | ZIP no SIGAA |
 | Consolidação SIGAA | 11/07 | Término oficial do período |
@@ -69,8 +69,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 
 | Unidade | Período | Entrega Final |
 |---------|---------|---------------|
-| U1 | 02/03 a 03/04 | 03/04 (sex) |
-| U2 | 06/04 a 08/05 | 08/05 (sex) + Prova 12/05 |
+| U1 | 17/03 a 24/04 | 24/04 (sex) |
+| U2 | 25/04 a 22/05 | 22/05 (sex) + Prova 26/05 |
 | U3 | 18/05 a 26/06 | 26/06 (sex) |
 
 ---
@@ -85,7 +85,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 
 ---
 
-## Unidade 1 (Semanas 1-5)
+## Unidade 1 (Sprint 0 + Sprint 1)
 
 ### Componentes e Pesos
 
@@ -114,13 +114,13 @@ Exercícios_U1 = (Lista1 × 0.30) + (Lista2 × 0.30) + (Lista3 × 0.40)
 
 ---
 
-## Unidade 2 (Semanas 6-11)
+## Unidade 2 (Sprint 2 + Sprint 3 + Prova)
 
 ### Componentes e Pesos
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Laboratório (12/05) |
+| **Prova Prática** | **50%** | Individual | Laboratório (26/05) |
 | Sprints 1-3 | 35% | Grupo | Vídeos de acompanhamento (8min cada) + participação |
 | Exercícios (Listas 4-5) | 15% | Individual | Correção automática via GitHub Classroom |
 
@@ -157,15 +157,15 @@ A nota de cada sprint inclui a avaliação da participação individual de cada 
 
 ---
 
-## Unidade 3 (Semanas 12-17)
+## Unidade 3 (Sprint 4 + Apresentações)
 
 ### Componentes e Pesos
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 12/05) |
-| Projeto Final | 45% | Grupo | Sprints 4-5 + Apresentação Final + participação |
-| Exercícios (Lista 6) | 5% | Individual | Correção automática via GitHub Classroom |
+| **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 26/05) |
+| Projeto Final | 45% | Grupo | Sprint 4 + Apresentação Final + participação |
+| Exercícios (Lista 7) | 5% | Individual | Correção automática via GitHub Classroom |
 
 ### Fórmula
 
@@ -177,12 +177,11 @@ U3 = (Prova × 0.50) + (Projeto × 0.45) + (Exercícios × 0.05)
 
 | Componente | Peso na U3 |
 |------------|------------|
-| Sprint 4 | 10% |
-| Sprint 5 | 15% |
+| Sprint 4 | 25% |
 | Apresentação Final | 20% |
 
 ```
-Projeto_U3 = Sprint4 (10%) + Sprint5 (15%) + Apresentação (20%) = 45%
+Projeto_U3 = Sprint4 (25%) + Apresentação (20%) = 45%
 ```
 
 A nota do projeto inclui a avaliação da participação individual de cada membro do grupo.
@@ -254,7 +253,7 @@ A ordem será definida por sorteio e divulgada no Discord no dia 9/6 (terça da 
 
 ### Informações Gerais
 
-- **Data**: 12/05/2026 (Terça-feira)
+- **Data**: 26/05/2026 (Terça-feira)
 - **Horário**: 13:00 às 14:40
 - **Local**: Laboratório A307 (IMD)
 - **Duração**: 1h40min
@@ -495,7 +494,7 @@ O documento deve conter:
 - Demonstração funcional (15%)
 - Comunicação técnica (10%)
 
-#### Sprint 5: MVP Completo (10min)
+#### Sprint 4 (final): MVP Completo (10min)
 - Funcionalidade completa (25%)
 - Qualidade do código e arquitetura (25%)
 - Testes e cobertura (20%)
@@ -604,7 +603,7 @@ equipe-nome-u1.zip
     └── proposta.pdf         # Documento de proposta (2-3 páginas)
 ```
 
-#### U2: Entrega até 08/05
+#### U2: Entrega até 22/05 (Sprint 3 + Listas) + Prova em 26/05
 
 ```
 equipe-nome-u2.zip
@@ -629,7 +628,7 @@ equipe-nome-final.zip
 │   └── lista-06/               # Link para repo GitHub Classroom
 ├── sprints/
 │   ├── sprint-4-video.txt      # Link do vídeo Sprint 4
-│   └── sprint-5-video.txt      # Link do vídeo Sprint 5
+│   └── sprint-5-video.txt      # Link do vídeo Sprint 4 (final)
 ├── projeto/
 │   ├── repo-link.txt           # Link do repositório
 │   ├── deploy-link.txt         # URL da aplicação em produção
@@ -828,7 +827,7 @@ R: Apenas em casos excepcionais, com autorização do professor.
 - [ ] Participação em code reviews
 
 ### Final do Curso
-- [ ] Prova realizada (12/05)
+- [ ] Prova realizada (26/05)
 - [ ] Projeto completo e funcionando
 - [ ] Apresentação final realizada (16 ou 18/06)
 - [ ] Todas as entregas consolidadas (até 26/06)
