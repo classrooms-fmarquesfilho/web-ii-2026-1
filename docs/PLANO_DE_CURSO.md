@@ -11,7 +11,7 @@
 
 ## Ementa
 
-Desenvolvimento de aplicações web modernas utilizando Go como linguagem de backend. Arquitetura de APIs RESTful e introdução a GraphQL, persistência de dados, autenticação e autorização, testes automatizados, containerização e deploy. Metodologia ágil com Scrum e práticas de engenharia de software.
+Desenvolvimento de aplicações web modernas utilizando Go como linguagem de backend. Arquitetura de APIs RESTful e introdução a protocolos alternativos (gRPC e GraphQL), persistência de dados, autenticação e autorização, testes automatizados, containerização, observabilidade e deploy. Metodologia ágil com Scrum e práticas de engenharia de software.
 
 ---
 
@@ -27,10 +27,11 @@ Ao final do curso, o estudante será capaz de:
 
 1. Compreender profundamente o protocolo HTTP e a arquitetura de aplicações web
 2. Desenvolver APIs RESTful idiomáticas em Go usando a biblioteca padrão e Chi
-3. Comparar paradigmas de API (REST vs GraphQL) e escolher adequadamente
+3. Comparar paradigmas de API (REST vs gRPC vs GraphQL) e escolher adequadamente para cada contexto
 4. Implementar persistência de dados com SQL type-safe usando sqlc
 5. Aplicar padrões de Clean Architecture em projetos Go
 6. Configurar pipelines de CI/CD e deploy em containers
 7. Implementar autenticação/autorização com JWT e OAuth 2.0
 8. Escrever testes automatizados em múltiplos níveis (unitário, integração, e2e)
 9. Trabalhar em equipe utilizando metodologia Scrum
+10. Implementar serviços gRPC com Protocol Buffers, incluindo streaming, em Go
