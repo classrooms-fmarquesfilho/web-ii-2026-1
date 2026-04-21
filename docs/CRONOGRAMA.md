@@ -82,7 +82,7 @@ Cada equipe propõe seu projeto de API em Go, define o MVP, cria o repositório 
 ### Entregas do Sprint
 
 - 📝 **Lista 1** (net/http básico) — 27/03 (sex) ✓
-- 📝 **Lista 2** (net/http + middleware) — publicada 07/04, prazo **17/04 (sex)**
+- 📝 **Lista 2** (net/http + middleware) — prazo **24/04 (sex)**
 - 🚀 **Sprint 0** — Proposta do projeto (vídeo 5min + documento PDF) — prazo estendido até **06/04 (dom)**
 
 ---
@@ -104,8 +104,8 @@ A equipe implementa a primeira versão da API do projeto com rotas via Chi, midd
 
 ### Entregas do Sprint
 
-- 📝 **Lista 2** (net/http + middleware) — até 17/04 (sex)
-- 📝 **Lista 3** (Chi + OpenAPI + validator) — publicada 17/04, até 24/04 (sex)
+- 📝 **Lista 2** (net/http + middleware) — até 24/04 (sex)
+- 📝 **Lista 3** (Chi + OpenAPI + validator) — publicada 21/04, até 5/5 (ter)
 - 🚀 **Sprint 1** (vídeo 8min + API funcionando) — até **24/04 (sex)**
 
 **Esperado no vídeo**:
