@@ -5,6 +5,10 @@
 **Período**: 2026.1  
 **Prof. Fernando Figueira**
 
+> **⚠️ Atualização 05/05/2026**: Datas ajustadas para reposição de aulas não realizadas. Prova adiada para **02/06 (ter)**. Apresentações finais adiadas para **30/06 (ter) e 02/07 (qui)**. Entrega U3 passa a ser **04/07 (sex)**.
+>
+> **⚠️ Lista 3**: prazo de entrega prorrogado para **12/05 (ter) às 23:59**.
+
 ---
 
 ## Estrutura Geral
@@ -38,40 +42,40 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 | Lista | Conteúdo | Prazo | Unidade |
 |-------|----------|-------|---------|
 | Lista 1 | net/http básico | 27/03 (sex) ✓ | U1 (Sprint 0) |
-| Lista 2 | net/http + middleware | 17/04 (sex) | U1 (Sprint 0→1) |
-| Lista 3 | Chi + OpenAPI + validator | 24/04 (sex) | U1 (Sprint 1) |
-| Lista 4 | sqlc + Clean Architecture | 02/05 (sex) | U2 (Sprint 2) |
-| Lista 5 | Testes unitários + integração | 08/05 (sex) | U2 (Sprint 2) |
-| Lista 6 | Autenticação JWT + OAuth | 15/05 (sex) | U2 (Sprint 3) |
-| Lista 7 | Deploy + Observabilidade + gRPC | 12/06 (sex) | U3 (Sprint 4) |
+| Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 (Sprint 0→1) |
+| Lista 3 | Chi + OpenAPI + validator | ⚠️ **12/05 (ter) às 23:59** | U1→U2 |
+| Lista 4 | sqlc + Clean Architecture | **19/05 (ter)** | U2 (Sprint 2) |
+| Lista 5 | Testes unitários + integração | **26/05 (ter)** | U2 (Sprint 2) |
+| Lista 6 | Autenticação JWT + OAuth | **02/06 (ter)** | U2 (Sprint 3) |
+| Lista 7 | Deploy + Observabilidade + gRPC | **19/06 (sex)** | U3 (Sprint 4) |
 
 ### Sprints do Projeto (Grupo)
 
 | Sprint | Conteúdo | Prazo | Vídeo |
 |--------|----------|-------|-------|
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
-| Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) | 8 min |
-| Sprint 2 | Persistência + Clean Arch + Testes | 08/05 (sex) | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança | 22/05 (sex) | 8 min |
-| Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | 12/06 (sex) | 10 min |
+| Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
+| Sprint 2 | Persistência + Clean Arch + Testes | **19/05 (ter)** | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança | **29/05 (sex)** | 8 min |
+| Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | **19/06 (sex)** | 10 min |
 
 ### Datas Especiais
 
 | Evento | Data | Observação |
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
-| **Prova Prática** | **26/05 (ter)** | Laboratório, 13:00-14:40 |
-| Apresentações Finais | 16 e 18/06 | 12 min + 3 min perguntas |
-| Entrega Final U3 | 26/06 (sex) | ZIP no SIGAA |
+| **Prova Prática** | **02/06 (ter)** | Laboratório, 13:00-14:40 |
+| Apresentações Finais | 30/06 e 02/07 | 12 min + 3 min perguntas |
+| Entrega Final U3 | 04/07 (sex) | ZIP no SIGAA |
 | Consolidação SIGAA | 11/07 | Término oficial do período |
 
 ### Consolidação por Unidade
 
 | Unidade | Período | Entrega Final |
 |---------|---------|---------------|
-| U1 | 17/03 a 24/04 | 24/04 (sex) |
-| U2 | 25/04 a 22/05 | 22/05 (sex) + Prova 26/05 |
-| U3 | 18/05 a 26/06 | 26/06 (sex) |
+| U1 | 17/03 a 24/04 | 24/04 (sex) ✓ |
+| U2 | 25/04 a 29/05 | 29/05 (sex) + Prova 02/06 |
+| U3 | 03/06 a 04/07 | 04/07 (sex) |
 
 ---
 
@@ -120,7 +124,7 @@ Exercícios_U1 = (Lista1 × 0.30) + (Lista2 × 0.30) + (Lista3 × 0.40)
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Laboratório (26/05) |
+| **Prova Prática** | **50%** | Individual | Laboratório (02/06) |
 | Sprints 1-3 | 35% | Grupo | Vídeos de acompanhamento (8min cada) + participação |
 | Exercícios (Listas 4-5) | 15% | Individual | Correção automática via GitHub Classroom |
 
@@ -163,7 +167,7 @@ A nota de cada sprint inclui a avaliação da participação individual de cada 
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 26/05) |
+| **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 02/06) |
 | Projeto Final | 45% | Grupo | Sprint 4 + Apresentação Final + participação |
 | Exercícios (Lista 7) | 5% | Individual | Correção automática via GitHub Classroom |
 
@@ -192,7 +196,7 @@ A nota do projeto inclui a avaliação da participação individual de cada memb
 
 ### Informações Gerais
 
-- **Datas**: 16/06 (terça) e 18/06 (quinta)
+- **Datas**: 30/06 (terça) e 02/07 (quinta)
 - **Horário**: 13:00 às 14:40
 - **Local**: Sala de aula com projetor
 - **Duração**: 12 minutos de apresentação + 3 minutos de perguntas (15 min total)
@@ -245,7 +249,7 @@ Todos os membros da equipe devem estar presentes e participar da apresentação.
 
 ### Ordem das Apresentações
 
-A ordem será definida por sorteio e divulgada no Discord no dia 9/6 (terça da semana anterior à semana das apresentações).
+A ordem será definida por sorteio e divulgada no Discord no dia 23/06 (terça da semana anterior à semana das apresentações).
 
 ---
 
@@ -253,7 +257,7 @@ A ordem será definida por sorteio e divulgada no Discord no dia 9/6 (terça da 
 
 ### Informações Gerais
 
-- **Data**: 26/05/2026 (Terça-feira)
+- **Data**: 02/06/2026 (Terça-feira)
 - **Horário**: 13:00 às 14:40
 - **Local**: Laboratório A307 (IMD)
 - **Duração**: 1h40min
@@ -603,7 +607,7 @@ equipe-nome-u1.zip
     └── proposta.pdf         # Documento de proposta (2-3 páginas)
 ```
 
-#### U2: Entrega até 22/05 (Sprint 3 + Listas) + Prova em 26/05
+#### U2: Entrega até 29/05 (Sprint 3 + Listas) + Prova em 02/06
 
 ```
 equipe-nome-u2.zip
@@ -619,7 +623,7 @@ equipe-nome-u2.zip
     └── repo-link.txt           # Link do repositório do projeto
 ```
 
-#### U3: Entrega Final até 26/06
+#### U3: Entrega Final até 04/07
 
 ```
 equipe-nome-final.zip
@@ -827,7 +831,7 @@ R: Apenas em casos excepcionais, com autorização do professor.
 - [ ] Participação em code reviews
 
 ### Final do Curso
-- [ ] Prova realizada (26/05)
+- [ ] Prova realizada (02/06)
 - [ ] Projeto completo e funcionando
-- [ ] Apresentação final realizada (16 ou 18/06)
-- [ ] Todas as entregas consolidadas (até 26/06)
+- [ ] Apresentação final realizada (30/06 ou 02/07)
+- [ ] Todas as entregas consolidadas (até 04/07)
