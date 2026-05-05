@@ -33,7 +33,6 @@ Este curso utiliza a metodologia de **Sala de Aula Invertida (Flipped Classroom)
 
 - [Plano de curso](docs/PLANO_DE_CURSO.md)
 - [Cronograma detalhado](docs/CRONOGRAMA.md)
-- [Programação dos vídeos semanais](docs/VIDEOS_SEMANAIS.md)
 
 **Por que essa metodologia?**
 - Aprenda no seu ritmo (pause, volte, reveja)
@@ -85,18 +84,12 @@ Canais principais:
 ```
 .
 ├── README.md                    # Este arquivo
-├── docker-compose.yml           # PostgreSQL para desenvolvimento
 ├── docs/
 │   ├── PLANO_DE_CURSO.md       # Programa completo (15 semanas)
 │   ├── CRONOGRAMA.md           # Cronograma detalhado com datas
 │   ├── AVALIACAO.md            # Critérios de avaliação
 │   ├── AMBIENTE.md             # Configuração do ambiente de desenvolvimento
-│   ├── REFERENCIAS.md          # Bibliografia e recursos
-│   └── VIDEOS_SEMANAIS.md      # Lista dos vídeos a serem publicados
-├── exercicios/
-│   ├── lista-01/               # Lista 1 de exercícios
-│   ├── lista-02/               # Lista 2 de exercícios
-│   └── ...
+│   └── REFERENCIAS.md          # Bibliografia e recursos
 └── scripts/
     └── check-env/              # Script de verificação do ambiente
         ├── README.md
