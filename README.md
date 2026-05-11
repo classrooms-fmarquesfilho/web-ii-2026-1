@@ -168,9 +168,9 @@ O curso é centrado no desenvolvimento de um **projeto integrador** ao longo do 
 ```
 Semanas 1-4:   Fundamentos Go + net/http puro (HTTP, handlers, middleware, validação)
 Semana 5:      Chi avançado + OpenAPI
-Semanas 6-8:   Persistência (sqlc + Clean Architecture + Testes)
-Semanas 9-10:  Autenticação + Segurança
-Semana 11:     Prova Prática
+Semanas 6-8:   Persistência com sqlc (CRUD + relacionamentos 1:N)
+Semanas 9-10:  Autenticação + Segurança + Testes
+Semana 11:     Revisão e Prova Prática (02/06)
 Semanas 12-13: CI/CD + Observabilidade
 Semana 14:     GraphQL (paradigma alternativo)
 Semana 15:     Concorrência
@@ -204,7 +204,7 @@ Nota Final = (U1 + U2 + U3) / 3
 | **U2** | Semanas 6-11 | **Prova (50%)** + Sprints 1-3 (35%) + Listas 4-5 (15%) |
 | **U3** | Semanas 12-17 | **Prova (50%)** + Projeto Final (45%) + Lista 6 (5%) |
 
-A **Prova Prática** (12/05) vale 50% de U2 e 50% de U3, equivalendo a uma unidade completa.
+A **Prova Prática** (02/06) vale 50% de U2 e 50% de U3, equivalendo a uma unidade completa.
 
 > **Nota**: A participação individual é avaliada dentro dos componentes de grupo (Sprint 0, Sprints 1-3, Projeto Final).
 

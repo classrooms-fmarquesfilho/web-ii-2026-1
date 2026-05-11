@@ -44,8 +44,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 | Lista 1 | net/http básico | 27/03 (sex) ✓ | U1 (Sprint 0) |
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 (Sprint 0→1) |
 | Lista 3 | Chi + OpenAPI + validator | ⚠️ **12/05 (ter) às 23:59** | U1→U2 |
-| Lista 4 | sqlc + Clean Architecture | **19/05 (ter)** | U2 (Sprint 2) |
-| Lista 5 | Testes unitários + integração | **26/05 (ter)** | U2 (Sprint 2) |
+| Lista 4 | sqlc + Repository + filtros + JOIN 1:N | **19/05 (ter)** | U2 (Sprint 2) |
+| Lista 5 | Testes unitários + integração | **26/05 (ter)** | U2 (Sprint 3) |
 | Lista 6 | Autenticação JWT + OAuth | **02/06 (ter)** | U2 (Sprint 3) |
 | Lista 7 | Deploy + Observabilidade + gRPC | **19/06 (sex)** | U3 (Sprint 4) |
 
@@ -55,8 +55,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 |--------|----------|-------|-------|
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
-| Sprint 2 | Persistência + Clean Arch + Testes | **19/05 (ter)** | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança | **29/05 (sex)** | 8 min |
+| Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | **19/05 (ter)** | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **29/05 (sex)** | 8 min |
 | Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | **19/06 (sex)** | 10 min |
 
 ### Datas Especiais
@@ -84,8 +84,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 | Unidade | Componentes | Tipo |
 |---------|-------------|------|
 | **U1** | Sprint 0 (60%) + Listas 1-3 (40%) | Grupo + Individual |
-| **U2** | **Prova (50%)** + Sprints 1-3 (35%) + Listas 4-5 (15%) | Individual + Grupo + Individual |
-| **U3** | **Prova (50%)** + Projeto Final (45%) + Lista 6 (5%) | Individual + Grupo + Individual |
+| **U2** | **Prova (50%)** + Sprints 1-3 (35%) + Listas 4-6 (15%) | Individual + Grupo + Individual |
+| **U3** | **Prova (50%)** + Projeto Final (45%) + Lista 7 (5%) | Individual + Grupo + Individual |
 
 ---
 
@@ -126,7 +126,7 @@ Exercícios_U1 = (Lista1 × 0.30) + (Lista2 × 0.30) + (Lista3 × 0.40)
 |------------|------|------|-----------|
 | **Prova Prática** | **50%** | Individual | Laboratório (02/06) |
 | Sprints 1-3 | 35% | Grupo | Vídeos de acompanhamento (8min cada) + participação |
-| Exercícios (Listas 4-5) | 15% | Individual | Correção automática via GitHub Classroom |
+| Exercícios (Listas 4-6) | 15% | Individual | Correção automática via GitHub Classroom |
 
 ### Fórmula
 
@@ -138,11 +138,12 @@ U2 = (Prova × 0.50) + (Sprints × 0.35) + (Exercícios × 0.15)
 
 | Lista | Peso |
 |-------|------|
-| Lista 4 | 55% |
-| Lista 5 | 45% |
+| Lista 4 | 40% |
+| Lista 5 | 30% |
+| Lista 6 | 30% |
 
 ```
-Exercícios_U2 = (Lista4 × 0.55) + (Lista5 × 0.45)
+Exercícios_U2 = (Lista4 × 0.40) + (Lista5 × 0.30) + (Lista6 × 0.30)
 ```
 
 ### Peso dos Sprints na nota de Sprints U2
@@ -275,7 +276,8 @@ Todo o material das **Unidades 1 e 2**:
 - Chi: rotas, grupos, middleware
 - JSON e validação
 - sqlc e persistência
-- Clean Architecture
+- Relacionamentos 1:N e JOINs
+- Repository pattern (desacoplamento de camadas)
 - Testes automatizados
 - Autenticação JWT
 
