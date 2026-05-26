@@ -12,6 +12,8 @@
 > **⚠️ Atualização 05/05/2026**: Cronograma ajustado para reposição de aulas não realizadas (03/03, 05/03, 10/03, 12/03, 31/03, 28/04 e 30/04). **Sprint 2 inicia hoje (05/05)**. Prova adiada para **02/06 (ter)**. Apresentações finais adiadas para **30/06 (ter) e 02/07 (qui)**. Entregas de sprint passam a ocorrer na **terça-feira** que encerra cada sprint.
 >
 > **⚠️ Lista 3**: prazo de entrega prorrogado para **12/05 (ter) às 23:59**.
+>
+> **⚠️ Atualização 25/05/2026**: Aulas de 19/05 e 21/05 não foram realizadas. **Sprint 3 inicia amanhã (26/05)** e tem prazo de entrega prorrogado para **11/06 (qui)**. As aulas presenciais de 09/06 (ter) e o acompanhamento de 11/06 (qui) passam a fechar a Sprint 3. **Listas 5 e 6 unificadas em uma única Lista 5+6** (auth + segurança + testes). **A Sprint 4 deixa de existir como entrega independente** — é mesclada com a apresentação final, que passa a ser entregue como **vídeo até 30/06 (ter)**.
 
 ---
 
@@ -24,6 +26,7 @@
 | 🔵 | Acompanhamento online (Google Meet) |
 | 📝 | Entrega de lista de exercícios |
 | 🚀 | Entrega de sprint/projeto |
+| 🎥 | Entrega de vídeo final (substitui apresentação presencial) |
 | 📚 | Prova |
 | 🔴 | Feriado/Sem aula |
 
@@ -35,12 +38,12 @@
 |--------|---------|----------|---------|
 | **Sprint 0** | 17/03 - 06/04 | Propor o projeto e configurar ambiente Go | 06/04 (dom) ✓ |
 | **Sprint 1** | 14/04 - 24/04 | Implementar API REST idiomática com Chi e middleware | 24/04 (sex) ✓ |
-| **Sprint 2** | 05/05 - 19/05 | Adicionar persistência com PostgreSQL e relacionamentos 1:N | **19/05 (ter)** |
-| **Sprint 3** | 20/05 - 02/06 | Implementar autenticação JWT, segurança OWASP e testes automatizados | **29/05 (sex)** |
+| **Sprint 2** | 05/05 - 19/05 | Adicionar persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ |
+| **Sprint 3** | 26/05 - 11/06 | Implementar autenticação JWT, segurança OWASP e testes automatizados | **11/06 (qui)** |
 | 📚 **PROVA** | 02/06 (ter) | Avaliação prática individual dos conceitos de U1+U2 | — |
-| **Sprint 4** | 03/06 - 19/06 | Containerizar, observar e explorar protocolos avançados (gRPC, GraphQL) | **19/06 (sex)** |
-| **Apresentações** | 30/06 e 02/07 | Defesa final dos projetos | — |
-| **Encerramento** | 07-11/07 | Correção, notas, feedback | 04/07 (sex) |
+| **Conteúdo Final** | 16/06 - 23/06 | gRPC + GraphQL + Concorrência (sem entrega de sprint) | — |
+| 🎥 **Vídeo Final** | 16/06 - 30/06 | Defesa final do projeto em vídeo (mescla Sprint 4 + apresentação) | **30/06 (ter)** |
+| **Encerramento** | 01-11/07 | Correção, notas, feedback | — |
 
 ---
 
@@ -50,7 +53,7 @@
 |---------|---------|-------------------|
 | **U1** | Sprint 0 + Sprint 1 | Fundamentos Go + net/http + Chi + middleware |
 | **U2** | Sprint 2 + Sprint 3 + Prova | Persistência + Relacionamentos + Auth + Testes |
-| **U3** | Sprint 4 + Apresentações | Deploy + Observabilidade + **gRPC** + GraphQL + Concorrência |
+| **U3** | Conteúdo Final + Vídeo Final | **gRPC** + GraphQL + Concorrência |
 
 ---
 
@@ -86,8 +89,8 @@ Cada equipe propõe seu projeto de API em Go, define o MVP, cria o repositório 
 ### Entregas do Sprint
 
 - 📝 **Lista 1** (net/http básico) — 27/03 (sex) ✓
-- 📝 **Lista 2** (net/http + middleware) — prazo **24/04 (sex)**
-- 🚀 **Sprint 0** — Proposta do projeto (vídeo 5min + documento PDF) — prazo estendido até **06/04 (dom)**
+- 📝 **Lista 2** (net/http + middleware) — prazo **24/04 (sex)** ✓
+- 🚀 **Sprint 0** — Proposta do projeto (vídeo 5min + documento PDF) — prazo estendido até **06/04 (dom)** ✓
 
 ---
 
@@ -114,22 +117,16 @@ A equipe implementa a primeira versão da API do projeto com rotas via Chi, midd
 ### Entregas do Sprint
 
 - 📝 **Lista 2** (net/http + middleware) — até 24/04 (sex) ✓
-- 📝 **Lista 3** (Chi + OpenAPI + validator) — ⚠️ **prazo prorrogado: 12/05 (ter) às 23:59**
-- 🚀 **Sprint 1** (vídeo 8min + API funcionando) — até **24/04 (sex)** ✓
-
-**Esperado no vídeo**:
-1. Demonstração da API com pelo menos 4-5 endpoints
-2. Chi com grupos de rotas e middlewares específicos
-3. Documentação OpenAPI gerada com swaggo
-4. Validação de entrada com validator
+- 📝 **Lista 3** (Chi + OpenAPI + validator) — 12/05 (ter) ✓
+- 🚀 **Sprint 1** (vídeo 8min + API funcionando) — até **30/04** ✓
 
 ---
 
-## SPRINT 2 (05/05 - 19/05): Persistência com PostgreSQL e Relacionamentos
+## SPRINT 2 (05/05 - 19/05): Persistência com PostgreSQL e Relacionamentos ✓
 
 ### Objetivo do Sprint
 
-A equipe conecta a API a um banco PostgreSQL via **sqlc** (queries type-safe) e modela ao menos um **relacionamento 1:N** entre entidades. Ao final, a aplicação persiste dados de verdade e expõe pelo menos um endpoint que entrega dados aninhados (pai + filhos).
+A equipe conecta a API a um banco PostgreSQL via **sqlc** (queries type-safe) e modela ao menos um **relacionamento 1:N** entre entidades.
 
 ### Aulas do Sprint
 
@@ -145,49 +142,44 @@ A equipe conecta a API a um banco PostgreSQL via **sqlc** (queries type-safe) e 
 - 📺 **Vídeo 5**: PostgreSQL + sqlc — queries type-safe e CRUD persistente
 - 📺 **Vídeo 6**: JOINs e relacionamentos 1:N em sqlc
 
-> Clean Architecture, migrations com Atlas e testes automatizados foram movidos para sprints posteriores — não são requisitos desta entrega.
-
 ### Entregas do Sprint
 
-- 📝 **Lista 3** (Chi + OpenAPI + validator) — ⚠️ **prazo prorrogado: 12/05 (ter) às 23:59**
-- 📝 **Lista 4** (sqlc + Repository pattern + filtros + JOIN 1:N) — até **19/05 (ter)**
-- 🚀 **Sprint 2** (vídeo 8min + persistência funcionando) — até **19/05 (ter)**
-
-**Esperado no vídeo**:
-1. API conectada a PostgreSQL via sqlc
-2. CRUD completo em pelo menos uma entidade persistido no banco
-3. Pelo menos um endpoint que envolve relacionamento (JOIN, lista paginada, ou busca filtrada)
-4. Schema SQL versionado no repositório (em `db/schema/`)
+- 📝 **Lista 3** (Chi + OpenAPI + validator) — 12/05 (ter) ✓
+- 📝 **Lista 4** (sqlc + Repository pattern + filtros + JOIN 1:N) — 28/05 (qui)
+- 🚀 **Sprint 2** (vídeo 8min + persistência funcionando) — 22/05 (sex) ✓
 
 ---
 
-## SPRINT 3 (20/05 - 02/06): Autenticação, Segurança e Testes
+## SPRINT 3 (26/05 - 11/06): Autenticação, Segurança e Testes
 
 ### Objetivo do Sprint
 
 A equipe implementa autenticação JWT completa, refresh tokens e middleware de autorização, e introduz testes automatizados nos níveis unitário e de integração. Ao final, a API deve ter login, proteção de rotas, ser resiliente a ataques comuns e ter pipeline CI verde.
 
+> ⚠️ Sprint reorganizada após 25/05: aulas de 19/05 e 21/05 não foram realizadas. O conteúdo da Sprint 3 (JWT + refresh + OWASP + testes) é coberto em 26/05 e 09/06, com fechamento no acompanhamento online de 11/06. **Listas 5 e 6 unificadas** em uma única Lista 5+6 (auth + segurança + testes).
+
 ### Aulas do Sprint
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 19/05 | Ter | 🟢 | Autenticação com JWT: estrutura, claims, assinatura, middleware de auth |
-| 21/05 | Qui | 🟢 | Refresh tokens + OAuth 2.0 flows (authorization code, client credentials) |
-| 26/05 | Ter | 🟢 | Testes em Go + Segurança: testing package, testify, mocks, OWASP API Top 10 |
-| 28/05 | Qui | 🔵 | **Acompanhamento Online** — Sprint 3 + Revisão para a prova |
+| 26/05 | Ter | 🟢 | **Autenticação**: JWT (estrutura, claims, assinatura HS256, middleware contra `alg: none`) + Refresh tokens + OAuth 2.0 flows (visão geral) |
+| 28/05 | Qui | 🔵 | **Acompanhamento Online** — Sprint 3 + Revisão para a prova de 02/06 |
+| 02/06 | Ter | 📚 | **PROVA PRÁTICA** — Unidades 1 e 2 (laboratório, 13:00-14:40) |
+| 04/06 | Qui | 🔴 | **Corpus Christi** — Sem aula |
+| 09/06 | Ter | 🟢 | Testes em Go (testing, testify, mocks, table-driven) + Segurança API (OWASP API Top 10 + rate limiting) |
+| 11/06 | Qui | 🔵 | **Acompanhamento Online** — Sprint 3 (fechamento, dúvidas finais antes da entrega) |
 
 ### Vídeos da Sprint
 
-- 📺 **Vídeo 7** (publicado até 17/05): Autenticação JWT + OAuth 2.0 em Go
-- 📺 **Vídeo 8** (publicado até 24/05): Testes em Go + Segurança API (OWASP Top 10 + rate limiting)
+- 📺 **Vídeo 7** (publicado até 27/05): Autenticação JWT + Refresh tokens + OAuth 2.0 em Go
+- 📺 **Vídeo 8** (publicado até 08/06): Testes em Go + Segurança API (OWASP Top 10 + rate limiting)
 
 ### Entregas do Sprint
 
-- 📝 **Lista 5** (Testes unitários + integração) — até **26/05 (ter)**
-- 📝 **Lista 6** (Autenticação JWT + OAuth) — publicada 20/05, até **02/06 (ter)**
-- 🚀 **Sprint 3** (vídeo 8min + auth + hardening + testes) — até **29/05 (sex)**
+- 📝 **Lista 5+6** unificada (auth JWT + autorização + refresh tokens + rate limiting + testes) — até **11/06 (qui) às 23:59**
+- 🚀 **Sprint 3** (vídeo 8min + auth + hardening + testes) — até **11/06 (qui)**
 
-**Esperado no vídeo**:
+**Esperado no vídeo da Sprint 3**:
 1. Endpoint de login retornando JWT
 2. Rotas protegidas por middleware de autenticação
 3. Refresh token funcionando
@@ -203,71 +195,62 @@ A equipe implementa autenticação JWT completa, refresh tokens e middleware de 
 | 02/06 | Ter | 📚 | **PROVA PRÁTICA** — Unidades 1 e 2 (laboratório, 13:00-14:40) |
 | 04/06 | Qui | 🔴 | **Corpus Christi** — Sem aula |
 
-**Conteúdo da prova**: Todo material das Unidades 1 e 2 — fundamentos Go, net/http, Chi, middleware, JSON, validator, sqlc, Clean Architecture, testes, autenticação JWT.
+**Conteúdo da prova**: Todo material das Unidades 1 e 2 — fundamentos Go, net/http, Chi, middleware, JSON, validator, sqlc, padrão Repository, autenticação JWT.
 
 **Formato**: Individual, em laboratório. Implementação de uma mini-API com requisitos específicos e testes automáticos de validação.
 
----
-
-## SPRINT 4 (03/06 - 19/06): Deploy, Observabilidade e Protocolos Avançados
-
-### Objetivo do Sprint
-
-Último sprint. A equipe usa containers e faz deploy do projeto, implementa observabilidade (logs estruturados, métricas, traces) e explora protocolos além de REST: **gRPC** e **GraphQL**. Ao final, o projeto deve estar em produção (mesmo que simulado) com observabilidade funcionando.
-
-### Aulas do Sprint
-
-| Data | Dia | Tipo | Atividade |
-|------|-----|------|-----------|
-| 09/06 | Ter | 🟢 | Docker multi-stage + CI/CD + deploy |
-| 11/06 | Qui | 🔵 | **Acompanhamento Online** — Sprint 4 check-in |
-| 16/06 | Ter | 🟢 | Observabilidade: slog, OpenTelemetry, métricas e traces |
-| 18/06 | Qui | 🟢 | **gRPC com Go**: Protocol Buffers, streaming, quando usar vs REST |
-| 23/06 | Ter | 🟢 | GraphQL vs REST com gqlgen + Concorrência (goroutines, channels, worker pools) |
-
-### Vídeos da Sprint
-
-- 📺 **Vídeo 9** (publicado até 07/06): Docker multi-stage + CI/CD + deploy
-- 📺 **Vídeo 10** (publicado até 14/06): Observabilidade — slog + OpenTelemetry
-- 📺 **Vídeo 11** (publicado até 14/06): **gRPC com Go** — Protocol Buffers e streaming
-- 📺 **Vídeo 12** (publicado até 21/06): GraphQL com gqlgen + Concorrência
-
-### Entregas do Sprint
-
-- 📝 **Lista 7** (Deploy + Observabilidade + gRPC) — publicada 03/06, até **19/06 (sex)**
-- 🚀 **Sprint 4** (vídeo 10min + MVP completo + deploy + observabilidade) — até **19/06 (sex)**
-
-**Esperado no vídeo** (sprint final):
-1. MVP completo funcionando em container
-2. Pipeline CI/CD com deploy automatizado
-3. Logs estruturados e pelo menos uma métrica ou trace coletado
-4. Um endpoint gRPC ou GraphQL implementado como demonstração de protocolo alternativo
-5. Reflexão sobre a arquitetura final
+> Nota: alguns tópicos da Sprint 3 (refresh tokens e testes automatizados) ainda estarão sendo cobertos em 09/06; a prova foca nos fundamentos das duas unidades e na **autenticação JWT**.
 
 ---
 
-## APRESENTAÇÕES FINAIS (30/06 e 02/07)
+## Unidade 3
+
+Com a API segura e testada após a Sprint 3, as últimas aulas presenciais ampliam o repertório técnico para protocolos além de REST e concorrência em Go.
+
+> ⚠️ Mudança 25/05: a Sprint 4 deixou de existir como entrega independente. Foi mesclada com a apresentação final, agora entregue como vídeo.
+
+### Aulas
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 28/06 | Dom | 📺 | **Vídeo 13**: Próximos passos + Carreira em Go |
-| 30/06 | Ter | 🟢 | **Apresentações finais** (Grupos 1-6) |
-| 02/07 | Qui | 🟢 | **Apresentações finais** (Grupos 7-12) |
+| 16/06 | Ter | 🟢 | **gRPC com Go**: Protocol Buffers, RPC unário e streaming, geração de stubs, comparação com REST |
+| 18/06 | Qui | 🟢 | **GraphQL vs REST com gqlgen** + **Concorrência** (goroutines, channels, worker pools, padrões)  |
 
-**Formato**: 12 minutos por equipe + 3 minutos de perguntas (15 min total)  
-**Foco**: demonstração do MVP, decisões técnicas, aprendizados
+### Vídeos da Sprint Final
+
+- 📺 **Vídeo 9** (publicado até 14/06): **gRPC com Go** — Protocol Buffers e streaming
+- 📺 **Vídeo 10** (publicado até 21/06): GraphQL com gqlgen + Concorrência
+
+### Conteúdo Habilitador
+
+- **gRPC**: definição de serviços em `.proto`, geração de stubs, unary vs server-streaming vs client-streaming vs bidi, trade-offs frente a REST
+- **GraphQL**: schema-first com gqlgen, queries vs mutations, N+1 com dataloader, quando faz sentido
+- **Concorrência em Go**: goroutines, channels, `select`, padrões (fan-out/fan-in, worker pool, pipeline), `context` para cancelamento
+
+### Entrega Final
+
+🎥 **Vídeo Final** (12 min) — até **30/06 (ter) às 23:59**
+
+**Substitui**: a antiga Sprint 4 (entrega técnica) **e** a antiga apresentação presencial.
+
+**Esperado no vídeo** (12 minutos):
+1. **Introdução** (1-2 min) — equipe, projeto, problema que resolve
+2. **Demonstração do MVP** (5-6 min) — funcionalidades funcionando, fluxos completos, tratamento de erros
+3. **Arquitetura e Código** (3-4 min) — diagrama de arquitetura, decisões técnicas, métricas (cobertura de testes, endpoints documentados), e como tarefa opcional que gera um bonus na nota, uma  **demonstração de um endpoint gRPC ou GraphQL**.
+4. **Conclusão** (1 min) — aprendizados principais, o que faria diferente
 
 ---
 
-## ENCERRAMENTO (07-11/07)
+## ENCERRAMENTO (01-11/07)
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
+| 30/06 | Ter | 🎥 | **Entrega do vídeo final** (até 23:59) |
+| 02/07 | Qui | 🔵 | **Acompanhamento Online** — Dúvidas finais |
 | 07/07 | Ter | 🔴 | Sem aula — professor corrigindo trabalhos |
 | 09/07 | Qui | 🔵 | **Acompanhamento Online** — Dúvidas sobre correção e notas |
 
-**Prazo final**: Entrega U3 até **04/07 (sex) às 23:59**  
-**Consolidação**: Notas no SIGAA até 11/07
+**Consolidação**: Notas no SIGAA até **11/07**
 
 ---
 
@@ -279,29 +262,29 @@ A equipe implementa autenticação JWT completa, refresh tokens e middleware de 
 |-------|----------|-------|--------|
 | Lista 1 | net/http básico | 27/03 (sex) ✓ | Sprint 0 |
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | Sprint 0→1 |
-| Lista 3 | Chi + OpenAPI + validator | ⚠️ **12/05 (ter) às 23:59** | Sprint 1→2 |
-| Lista 4 | sqlc + Repository + filtros + JOIN 1:N | **19/05 (ter)** | Sprint 2 |
-| Lista 5 | Testes unitários + integração | **26/05 (ter)** | Sprint 3 |
-| Lista 6 | Autenticação JWT + OAuth | **02/06 (ter)** | Sprint 3 |
-| Lista 7 | Deploy + Observabilidade + gRPC | **19/06 (sex)** | Sprint 4 |
+| Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | Sprint 1→2 |
+| Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 19/05 (ter) ✓ | Sprint 2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **11/06 (qua)** | Sprint 3 |
+
+> ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
 ### Sprints do Projeto
 
 | Sprint | Objetivo | Prazo | Duração Vídeo |
 |--------|----------|-------|---------------|
-| Sprint 0 | Proposta + ambiente | 06/04 (dom) ✓ | 5 min |
-| Sprint 1 | API RESTful com Chi | 24/04 (sex) ✓ | 8 min |
-| Sprint 2 | Persistência com PostgreSQL e relacionamentos | **19/05 (ter)** | 8 min |
-| Sprint 3 | Auth JWT + Segurança + Testes | **29/05 (sex)** | 8 min |
-| Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | **19/06 (sex)** | 10 min |
+| Sprint 0 | Proposta + ambiente | 06/04 ✓ | 5 min |
+| Sprint 1 | API RESTful com Chi | 30/04 ✓ | 8 min |
+| Sprint 2 | Persistência com PostgreSQL e relacionamentos | 22/05 ✓ | 8 min |
+| Sprint 3 | Auth JWT + Segurança + Testes | **11/06 (qui)** | 8 min |
+| 🎥 Vídeo Final | MVP completo + gRPC/GraphQL (substitui Sprint 4 + apresentação) | **30/06 (ter)** | 12 min |
 
 ### Entregas por Unidade
 
 | Unidade | Sprints | Prazo Final | Componentes |
 |---------|---------|-------------|-------------|
 | **U1** | Sprint 0 + Sprint 1 | 24/04 (sex) ✓ | Listas 1-3 + Sprint 0 + Sprint 1 |
-| **U2** | Sprint 2 + Sprint 3 + Prova | **29/05 (sex)** + 02/06 | Listas 4-6 + Sprints 2-3 + Prova |
-| **U3** | Sprint 4 + Apresentação | **04/07 (sex)** | Lista 7 + Sprint 4 + Apresentação Final |
+| **U2** | Sprint 2 + Sprint 3 + Prova | **11/06 (qui)** + 02/06 | Listas 4 e 5+6 + Sprints 2-3 + Prova |
+| **U3** | Vídeo Final | **30/06 (ter)** | Vídeo Final (mescla Sprint 4 + apresentação) |
 
 ---
 
@@ -320,17 +303,10 @@ A equipe implementa autenticação JWT completa, refresh tokens e middleware de 
 
 | Data | Evento |
 |------|--------|
-| 19/03 | Prazo para formação de grupos |
-| 06/04 (dom) | Entrega Sprint 0 ✓ |
-| 24/04 (sex) | Entrega Sprint 1 (fim da U1) ✓ |
-| ⚠️ **12/05 (ter)** | **Lista 3 — prazo prorrogado (23:59)** |
-| **19/05 (ter)** | Entrega Sprint 2 |
-| **29/05 (sex)** | Entrega Sprint 3 |
 | **02/06 (ter)** | **PROVA PRÁTICA** |
-| **19/06 (sex)** | Entrega Sprint 4 (MVP completo) |
-| 30/06 e 02/07 | Apresentações finais |
-| 04/07 (sex) | Entrega U3 (final) |
-| 11/07 | Término do período |
+| **11/06 (qui)** | **Entrega Sprint 3 e Lista 5+6** |
+| **30/06 (ter)** | **Entrega do Vídeo Final** (substitui Sprint 4 + apresentação presencial) |
+| 11/07 | Término do período (notas no SIGAA) |
 
 ---
 
@@ -341,10 +317,11 @@ Os acompanhamentos acontecem às quintas-feiras, sincronizados com a turma de Pr
 | # | Data | Foco | Sprint |
 |---|------|------|--------|
 | 1 | 26/03 | Sprint 0 — Proposta do projeto ✓ | Sprint 0 |
-| 2 | 14/05 | Sprint 2 — Persistência + relacionamentos | Sprint 2 |
+| 2 | 14/05 | Sprint 2 — Persistência + relacionamentos ✓ | Sprint 2 |
 | 3 | 28/05 | Sprint 3 + Revisão para prova | Sprint 3 |
-| 4 | 11/06 | Sprint 4 — Deploy + observabilidade | Sprint 4 |
-| 5 | 09/07 | Dúvidas sobre correção e notas | — |
+| 4 | 11/06 | Sprint 3 — fechamento  | Sprint 3 |
+| 5 | 25/06 | Dúvidas sobre o vídeo final | Final |
+| 6 | 09/07 | Dúvidas sobre correção e notas | — |
 
 **Horário**: 13:00-14:40 (mesmo horário das aulas presenciais)  
 **Formato**: ~10 minutos por equipe para tirar dúvidas e revisar progresso
