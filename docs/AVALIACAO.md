@@ -8,6 +8,17 @@
 > **⚠️ Atualização 05/05/2026**: Datas ajustadas para reposição de aulas não realizadas. Prova adiada para **02/06 (ter)**. Apresentações finais adiadas para **30/06 (ter) e 02/07 (qui)**. Entrega U3 passa a ser **04/07 (sex)**.
 >
 > **⚠️ Lista 3**: prazo de entrega prorrogado para **12/05 (ter) às 23:59**.
+>
+> **⚠️ Atualização 25/05/2026**:
+> - **Listas 5 e 6 unificadas** em uma única **Lista 5+6** (auth + segurança + testes), prazo **03/06 (qua)**.
+> - **Lista 7 removida** do cronograma.
+> - **Sprint 3** com prazo prorrogado para **11/06 (qui)**.
+> - **Sprint 4** mesclada com a Apresentação Final em um único entregável: o **Vídeo Final**, com prazo **30/06 (ter) às 23:59** (substitui a apresentação presencial).
+> - **Pesos redistribuídos** nas três unidades, com cada componente explicitado individualmente:
+>   - **U1**: Sprint 0 (30%) + Sprint 1 (40%) + Lista 1 (10%) + Lista 2 (10%) + Lista 3 (10%)
+>   - **U2**: Prova (20%) + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (10%) + Lista 5+6 (10%)
+>   - **U3**: Prova (50%) + Vídeo Final (50%)
+> - A **Sprint 1** passa a contar em U1 (deixa de pesar em U2). A **Prova** continua sendo uma única prova realizada em 02/06, com pesos diferentes em U2 (20%) e U3 (50%).
 
 ---
 
@@ -19,35 +30,35 @@ A avaliação é organizada em **3 unidades** com pesos iguais. A nota final é 
 Nota Final = (U1 + U2 + U3) / 3
 ```
 
-A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade — ou seja, equivale a **uma unidade completa** do curso.
+A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de U3.
 
 ### Tipos de Avaliação
 
 | Tipo | Componentes | Descrição |
 |------|-------------|-----------|
 | **Individual** | Listas de exercícios, Prova | Trabalho próprio, sem colaboração |
-| **Em grupo** | Sprints, Apresentação Final | Equipes de 3-4 pessoas, participação avaliada |
+| **Em grupo** | Sprints, Vídeo Final | Equipes de 3-4 pessoas |
 
-> **Importante**: As **listas de exercícios são individuais** e qualquer forma de cópia ou plágio resultará em nota zero. O **projeto é em grupo**, e a participação de cada membro é avaliada dentro da nota do projeto.
+> **Importante**: As **listas de exercícios são individuais** e qualquer forma de cópia ou plágio resultará em nota zero. O **projeto é em grupo**, e a contribuição individual de cada membro é avaliada através de commits, presença nos vídeos e capacidade de responder perguntas sobre o código.
 
 ---
 
 ## Calendário de Entregas
 
 > Todas as datas de entrega do curso estão consolidadas aqui.  
-> Prazos encerram às **23:59** do dia indicado. Entregas até **sexta-feira** para evitar trabalho no fim de semana.
+> Prazos encerram às **23:59** do dia indicado.
 
 ### Listas de Exercícios (Individual)
 
 | Lista | Conteúdo | Prazo | Unidade |
 |-------|----------|-------|---------|
-| Lista 1 | net/http básico | 27/03 (sex) ✓ | U1 (Sprint 0) |
-| Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 (Sprint 0→1) |
-| Lista 3 | Chi + OpenAPI + validator | ⚠️ **12/05 (ter) às 23:59** | U1→U2 |
-| Lista 4 | sqlc + Repository + filtros + JOIN 1:N | **19/05 (ter)** | U2 (Sprint 2) |
-| Lista 5 | Testes unitários + integração | **26/05 (ter)** | U2 (Sprint 3) |
-| Lista 6 | Autenticação JWT + OAuth | **02/06 (ter)** | U2 (Sprint 3) |
-| Lista 7 | Deploy + Observabilidade + gRPC | **19/06 (sex)** | U3 (Sprint 4) |
+| Lista 1 | net/http básico | 27/03 (sex) ✓ | U1 |
+| Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
+| Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
+| Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **11/06 (qui)** | U2 |
+
+> ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
 ### Sprints do Projeto (Grupo)
 
@@ -55,9 +66,9 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 |--------|----------|-------|-------|
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
-| Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | **19/05 (ter)** | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança + Testes | **29/05 (sex)** | 8 min |
-| Sprint 4 | Deploy + Observabilidade + gRPC/GraphQL | **19/06 (sex)** | 10 min |
+| Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **11/06 (qui)** | 8 min |
+| **🎥 Vídeo Final** | MVP completo + gRPC/GraphQL (mescla Sprint 4 + apresentação) | **30/06 (ter)** | 12 min |
 
 ### Datas Especiais
 
@@ -65,8 +76,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
 | **Prova Prática** | **02/06 (ter)** | Laboratório, 13:00-14:40 |
-| Apresentações Finais | 30/06 e 02/07 | 12 min + 3 min perguntas |
-| Entrega Final U3 | 04/07 (sex) | ZIP no SIGAA |
+| **Vídeo Final** | **30/06 (ter)** | Substitui apresentação presencial |
 | Consolidação SIGAA | 11/07 | Término oficial do período |
 
 ### Consolidação por Unidade
@@ -74,8 +84,8 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 | Unidade | Período | Entrega Final |
 |---------|---------|---------------|
 | U1 | 17/03 a 24/04 | 24/04 (sex) ✓ |
-| U2 | 25/04 a 29/05 | 29/05 (sex) + Prova 02/06 |
-| U3 | 03/06 a 04/07 | 04/07 (sex) |
+| U2 | 25/04 a 11/06 | **11/06 (qui)** + Prova 02/06 |
+| U3 | 12/06 a 30/06 | **30/06 (ter)** |
 
 ---
 
@@ -83,129 +93,87 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 50% de cada unidade
 
 | Unidade | Componentes | Tipo |
 |---------|-------------|------|
-| **U1** | Sprint 0 (60%) + Listas 1-3 (40%) | Grupo + Individual |
-| **U2** | **Prova (50%)** + Sprints 1-3 (35%) + Listas 4-6 (15%) | Individual + Grupo + Individual |
-| **U3** | **Prova (50%)** + Projeto Final (45%) + Lista 7 (5%) | Individual + Grupo + Individual |
+| **U1** | Sprint 0 (30%) + Sprint 1 (40%) + Listas 1, 2 e 3 (10% cada) | Grupo + Individual |
+| **U2** | Prova (20%) + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (10%) + Lista 5+6 (10%) | Individual + Grupo + Individual |
+| **U3** | **Prova (50%)** + Vídeo Final (50%) | Individual + Grupo |
 
 ---
 
-## Unidade 1 (Sprint 0 + Sprint 1)
+## Unidade 1 (Sprint 0 + Sprint 1 + Listas 1-3)
 
 ### Componentes e Pesos
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| Sprint 0 | 60% | Grupo | Proposta do projeto (vídeo 5min) + participação |
-| Exercícios (Listas 1-3) | 40% | Individual | Correção automática via GitHub Classroom |
+| Sprint 0 | 30% | Grupo | Proposta do projeto (vídeo 5min + documento) |
+| Sprint 1 | 40% | Grupo | API RESTful idiomática com Chi + middleware (vídeo 8min) |
+| Lista 1 | 10% | Individual | net/http básico — entregue ✓ |
+| Lista 2 | 10% | Individual | net/http + middleware — entregue ✓ |
+| Lista 3 | 10% | Individual | Chi + OpenAPI + validator — entregue ✓ |
 
 ### Fórmula
 
 ```
-U1 = (Sprint0 × 0.60) + (Exercícios × 0.40)
+U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
+   + (Lista1 × 0.10) + (Lista2 × 0.10) + (Lista3 × 0.10)
 ```
 
-### Peso das Listas na nota de Exercícios U1
-
-| Lista | Peso |
-|-------|------|
-| Lista 1 | 30% |
-| Lista 2 | 30% |
-| Lista 3 | 40% |
-
-```
-Exercícios_U1 = (Lista1 × 0.30) + (Lista2 × 0.30) + (Lista3 × 0.40)
-```
+> Mudança 25/05: a Sprint 1 passa a contar **em U1** (antes pesava apenas dentro do bloco "Sprints 1-3" em U2). As três listas de U1 têm agora pesos explícitos e iguais (10% cada).
 
 ---
 
-## Unidade 2 (Sprint 2 + Sprint 3 + Prova)
+## Unidade 2 (Sprint 2 + Sprint 3 + Listas 4 e 5+6 + Prova)
 
 ### Componentes e Pesos
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Laboratório (02/06) |
-| Sprints 1-3 | 35% | Grupo | Vídeos de acompanhamento (8min cada) + participação |
-| Exercícios (Listas 4-6) | 15% | Individual | Correção automática via GitHub Classroom |
+| Prova | 20% | Individual | Prova prática em laboratório (02/06) |
+| Sprint 2 | 30% | Grupo | Persistência com PostgreSQL e relacionamentos 1:N (vídeo 8min) |
+| Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes (vídeo 8min) |
+| Lista 4 | 10% | Individual | sqlc + Repository + filtros + JOIN 1:N — entregue ✓ |
+| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 03/06) |
 
 ### Fórmula
 
 ```
-U2 = (Prova × 0.50) + (Sprints × 0.35) + (Exercícios × 0.15)
+U2 = (Prova × 0.20)
+   + (Sprint2 × 0.30) + (Sprint3 × 0.30)
+   + (Lista4 × 0.10) + (Lista5+6 × 0.10)
 ```
 
-### Peso das Listas na nota de Exercícios U2
-
-| Lista | Peso |
-|-------|------|
-| Lista 4 | 40% |
-| Lista 5 | 30% |
-| Lista 6 | 30% |
-
-```
-Exercícios_U2 = (Lista4 × 0.40) + (Lista5 × 0.30) + (Lista6 × 0.30)
-```
-
-### Peso dos Sprints na nota de Sprints U2
-
-| Sprint | Peso |
-|--------|------|
-| Sprint 1 | 30% |
-| Sprint 2 | 35% |
-| Sprint 3 | 35% |
-
-```
-Sprints_U2 = (Sprint1 × 0.30) + (Sprint2 × 0.35) + (Sprint3 × 0.35)
-```
-
-A nota de cada sprint inclui a avaliação da participação individual de cada membro do grupo.
+> Mudança 25/05: a **Prova** vale agora 20% de U2 (era 50%, redistribuída para dar peso individual a sprints e listas). Cada sprint vale 30% (Sprint 1 saiu para U1). Cada lista vale 10%. A Lista 5+6 absorveu o conteúdo das antigas Lista 5 e Lista 6, agora em uma única entrega com 4 exercícios.
 
 ---
 
-## Unidade 3 (Sprint 4 + Apresentações)
+## Unidade 3 (Vídeo Final)
 
 ### Componentes e Pesos
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
 | **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 02/06) |
-| Projeto Final | 45% | Grupo | Sprint 4 + Apresentação Final + participação |
-| Exercícios (Lista 7) | 5% | Individual | Correção automática via GitHub Classroom |
+| **Vídeo Final** | 50% | Grupo | MVP completo + exploração técnica (gRPC ou GraphQL) — mescla Sprint 4 + Apresentação |
 
 ### Fórmula
 
 ```
-U3 = (Prova × 0.50) + (Projeto × 0.45) + (Exercícios × 0.05)
+U3 = (Prova × 0.50) + (VídeoFinal × 0.50)
 ```
 
-### Peso do Projeto na U3
 
-| Componente | Peso na U3 |
-|------------|------------|
-| Sprint 4 | 25% |
-| Apresentação Final | 20% |
 
-```
-Projeto_U3 = Sprint4 (25%) + Apresentação (20%) = 45%
-```
+## Vídeo Final (50% da U3)
 
-A nota do projeto inclui a avaliação da participação individual de cada membro do grupo.
+### Descrição
 
----
-
-## Apresentação Final do Projeto (20% da U3)
+O Vídeo Final é a **defesa do projeto** da equipe. Ele substitui tanto a antiga Sprint 4 (entrega técnica final) quanto a antiga apresentação presencial — agora unificadas em um único vídeo de 12 minutos.
 
 ### Informações Gerais
 
-- **Datas**: 30/06 (terça) e 02/07 (quinta)
-- **Horário**: 13:00 às 14:40
-- **Local**: Sala de aula com projetor
-- **Duração**: 12 minutos de apresentação + 3 minutos de perguntas (15 min total)
-- **Grupos por dia**: 6 grupos (total de ~12 grupos)
-
-### Formato
-
-Todos os membros da equipe devem estar presentes e participar da apresentação. A equipe utilizará o projetor e um computador (próprio ou da sala) para demonstrar o MVP.
+- **Prazo**: **30/06/2026 (terça) às 23:59**
+- **Formato**: Vídeo gravado (link YouTube/Drive acessível)
+- **Duração**: **12 minutos**
 
 ### Estrutura Sugerida (12 minutos)
 
@@ -219,11 +187,13 @@ Todos os membros da equipe devem estar presentes e participar da apresentação.
    - Funcionalidades principais funcionando
    - Fluxos de usuário completos
    - Tratamento de erros (mostrar pelo menos um caso)
+   - Autenticação JWT em ação
 
 3. Arquitetura e Código (3-4 min)
    - Diagrama de arquitetura (1 slide)
    - Decisões técnicas importantes
    - Métricas: cobertura de testes, endpoints documentados
+   - DEMONSTRAÇÃO DE PROTOCOLO ALTERNATIVO: pelo menos 1 endpoint gRPC OU GraphQL (bônus na nota)
 
 4. Conclusão (1 min)
    - Aprendizados principais
@@ -232,29 +202,26 @@ Todos os membros da equipe devem estar presentes e participar da apresentação.
 
 ### Dicas de Preparação
 
-1. **Ensaie com timer** - 12 minutos passam rápido
-2. **Prepare backup da demo** - Tenha um vídeo gravado caso algo falhe
-3. **Divida as falas** - Todos os membros devem falar
-4. **Conheça todo o código** - Qualquer um pode receber perguntas sobre qualquer parte
-5. **Tenha a API rodando** - Inicie os containers antes de começar
+1. **Ensaie antes** — 12 minutos passam rápido
+2. **Edite o vídeo** — evite pausas longas, mantenha o ritmo
+3. **Divida as falas** — é considerado positivo que todos membros participem
+4. **Áudio** — teste a gravação da voz para verificar se dá pra entender
+5. **Teste antes de enviar** — verifique que o arquivo abre e tem áudio
 
-### Critérios de Avaliação da Apresentação
+### Critérios de Avaliação do Vídeo Final
 
 | Critério | Peso | Descrição |
 |----------|------|-----------|
-| **Demonstração do MVP** | 35% | Funcionalidades funcionando, fluxos completos, tratamento de erros |
+| **Demonstração do MVP** | 30% | Funcionalidades funcionando, fluxos completos, tratamento de erros |
 | **Qualidade técnica** | 25% | Arquitetura clara, código organizado, boas práticas |
-| **Comunicação** | 20% | Clareza, domínio do conteúdo, participação de todos |
-| **Organização** | 10% | Respeito ao tempo, estrutura da apresentação |
-| **Perguntas** | 10% | Qualidade das respostas da equipe |
-
-### Ordem das Apresentações
-
-A ordem será definida por sorteio e divulgada no Discord no dia 23/06 (terça da semana anterior à semana das apresentações).
+| **Exploração de protocolo alternativo** | 15% | Demonstração de endpoint gRPC OU GraphQL implementado |
+| **Comunicação** | 15% | Clareza, domínio do conteúdo, participação de todos |
+| **Organização** | 10% | Respeito ao tempo, estrutura do vídeo, edição |
+| **Reflexão** | 5% | Aprendizados, o que faria diferente |
 
 ---
 
-## Prova Prática (50% de U2 + 50% de U3 = 1 Unidade)
+## Prova Prática (20% de U2 + 50% de U3)
 
 ### Informações Gerais
 
@@ -264,7 +231,7 @@ A ordem será definida por sorteio e divulgada no Discord no dia 23/06 (terça d
 - **Duração**: 1h40min
 - **Formato**: Individual, sem consulta externa
 
-A prova representa **uma unidade completa** do curso (50% de U2 + 50% de U3). Isso garante que cada estudante demonstre individualmente o domínio dos conceitos fundamentais.
+A prova é uma única avaliação realizada em 02/06, com pesos diferentes em cada unidade: vale 20% da U2 e 50% da U3.
 
 ### Conteúdo
 
@@ -278,27 +245,17 @@ Todo o material das **Unidades 1 e 2**:
 - sqlc e persistência
 - Relacionamentos 1:N e JOINs
 - Repository pattern (desacoplamento de camadas)
-- Testes automatizados
-- Autenticação JWT
+- Autenticação JWT (fundamentos vistos em 26/05)
+
+> Nota: refresh tokens, OWASP Top 10 e testes automatizados serão cobertos na aula extra de 09/06, **após** a prova. A prova foca nos fundamentos de autenticação (JWT, middleware, claims) e nos conceitos das unidades 1 e 2.
 
 ### Formato da Prova
 
 A prova consiste em **implementar uma mini-API** com requisitos específicos:
 
-1. **Setup inicial fornecido** (10min)
-   - Projeto base com estrutura definida
-   - Banco de dados configurado
-   - Testes de validação prontos
-
-2. **Implementação** (80min)
-   - Handlers para CRUD básico
-   - Middleware de autenticação
-   - Validação de dados
-   - Testes unitários
-
-3. **Execução dos testes** (10min)
-   - Testes de validação automáticos
-   - Correção parcial automática
+1. **Setup inicial fornecido** (10min) — projeto base com estrutura definida, banco configurado, testes de validação prontos
+2. **Implementação** (80min) — handlers CRUD, middleware de autenticação, validação, testes
+3. **Execução dos testes** (10min) — testes de validação automáticos
 
 ### Critérios de Avaliação da Prova
 
@@ -311,7 +268,7 @@ A prova consiste em **implementar uma mini-API** com requisitos específicos:
 
 ### Preparação
 
-- Revise as listas de exercícios 1-5
+- Revise as listas de exercícios 1-4 e a Lista 5+6
 - Pratique implementação de APIs do zero
 - Familiarize-se com os padrões do curso
 - Estude os exemplos das aulas
@@ -320,7 +277,7 @@ A prova consiste em **implementar uma mini-API** com requisitos específicos:
 
 ## Projeto Integrador
 
-### Sprint 0: Proposta do Projeto (60% da U1)
+### Sprint 0: Proposta do Projeto (30% da U1)
 
 O Sprint 0 é a **fase de planejamento** onde a equipe define o que será construído ao longo do semestre.
 
@@ -500,12 +457,7 @@ O documento deve conter:
 - Demonstração funcional (15%)
 - Comunicação técnica (10%)
 
-#### Sprint 4 (final): MVP Completo (10min)
-- Funcionalidade completa (25%)
-- Qualidade do código e arquitetura (25%)
-- Testes e cobertura (20%)
-- Deploy funcionando (15%)
-- Documentação (15%)
+> A Sprint 4 deixou de existir como entrega independente após a reorganização de 25/05 — agora é parte do Vídeo Final.
 
 ### Estrutura do Vídeo de Sprint
 
@@ -538,21 +490,21 @@ O documento deve conter:
 - [ ] Autenticação JWT
 - [ ] Testes automatizados (cobertura ≥ 70%)
 - [ ] Documentação OpenAPI
-- [ ] Deploy em container (Docker)
 - [ ] CI/CD com GitHub Actions
 - [ ] Graceful shutdown implementado
 - [ ] Health checks (/healthz, /readyz)
+- [ ] **Exploração de protocolo alternativo no Vídeo Final**: pelo menos 1 endpoint gRPC ou GraphQL implementado
 
 #### Opcionais (Bônus até +30% na nota do projeto)
-- [ ] Endpoint GraphQL com gqlgen (+5%)
-- [ ] Rate limiting implementado (+3%)
+- [ ] Endpoint gRPC E GraphQL implementados (+5%)
+- [ ] Deploy em produção funcionando (+5%)
 - [ ] Observabilidade (logs estruturados, métricas) (+5%)
+- [ ] Docker multi-stage com imagem otimizada (+3%)
+- [ ] Rate limiting implementado (+3%)
 - [ ] Integração com frontend funcional (+5%)
 - [ ] Cache (Redis) (+4%)
 - [ ] WebSockets (+3%)
 - [ ] testing/synctest para testes de concorrência (+3%)
-- [ ] `sync.WaitGroup.Go()` no código (+2%)
-- [ ] `errors.AsType` para tratamento de erros type-safe (+1%)
 
 ---
 
@@ -593,30 +545,16 @@ Os exercícios utilizam **GitHub Classroom com autograding**, oferecendo:
 
 ### Entregas de Unidade (SIGAA)
 
-Cada unidade requer um **arquivo ZIP único** no SIGAA com a estrutura abaixo.
+#### U1: Entregue ✓
 
-#### U1: Entrega até 03/04
-
-```
-equipe-nome-u1.zip
-├── README.md                 # Links e informações gerais
-├── listas/
-│   ├── lista-01/            # Link para repo GitHub Classroom
-│   ├── lista-02/            # Link para repo GitHub Classroom
-│   └── lista-03/            # Link para repo GitHub Classroom
-└── sprint-0/
-    ├── video-link.txt       # Link para o vídeo
-    └── proposta.pdf         # Documento de proposta (2-3 páginas)
-```
-
-#### U2: Entrega até 29/05 (Sprint 3 + Listas) + Prova em 02/06
+#### U2: Entrega até 11/06 (Sprint 3 + Listas) + Prova em 02/06
 
 ```
 equipe-nome-u2.zip
 ├── README.md                    # Links e informações
 ├── listas/
 │   ├── lista-04/               # Link para repo GitHub Classroom
-│   └── lista-05/               # Link para repo GitHub Classroom
+│   └── lista-05-06/            # Link para repo GitHub Classroom (Lista 5+6 unificada)
 ├── sprints/
 │   ├── sprint-1-video.txt      # Link do vídeo Sprint 1
 │   ├── sprint-2-video.txt      # Link do vídeo Sprint 2
@@ -625,22 +563,18 @@ equipe-nome-u2.zip
     └── repo-link.txt           # Link do repositório do projeto
 ```
 
-#### U3: Entrega Final até 04/07
+#### U3: Entrega Final até 30/06
 
 ```
 equipe-nome-final.zip
 ├── README.md                    # Resumo e links
-├── lista/
-│   └── lista-06/               # Link para repo GitHub Classroom
-├── sprints/
-│   ├── sprint-4-video.txt      # Link do vídeo Sprint 4
-│   └── sprint-5-video.txt      # Link do vídeo Sprint 4 (final)
+├── video-final/
+│   └── video-link.txt          # Link do Vídeo Final (12min)
 ├── projeto/
 │   ├── repo-link.txt           # Link do repositório
-│   ├── deploy-link.txt         # URL da aplicação em produção
-│   └── documentacao.pdf        # Documentação técnica (5-10 páginas)
-└── apresentacao/
-    └── slides.pdf              # Slides da apresentação
+│   └── deploy-link.txt         # URL da aplicação (se aplicável)
+└── documentacao/
+    └── documentacao.pdf        # Documentação técnica (5-10 páginas)
 ```
 
 ### Documentação Técnica Final (PDF, 5-10 páginas)
@@ -649,33 +583,12 @@ equipe-nome-final.zip
 2. **Arquitetura** (2-3 páginas): Diagrama de componentes, decisões técnicas, stack
 3. **Funcionalidades** (1-2 páginas): Lista de endpoints, principais fluxos
 4. **Qualidade** (1 página): Métricas de testes, análise de código
-5. **Deploy e Operação** (1 página): Ambiente, graceful shutdown, health checks, monitoramento
+5. **Exploração técnica** (1 página): gRPC ou GraphQL implementado — escolha e justificativa
 6. **Equipe e Contribuições** (1 página): Membros, responsabilidades, distribuição de commits
 
 ---
 
-## Participação
-
-### Componentes da Nota de Participação
-
-| Item | Peso | Descrição |
-|------|------|-----------|
-| Presença | 30% | Frequência nas aulas presenciais |
-| Code Reviews | 25% | Revisões de código entre equipes |
-| Retrospectivas | 20% | Participação nas discussões de sprint |
-| Contribuições | 15% | Ajuda a colegas, perguntas em aula |
-| Discord | 10% | Engajamento no servidor da disciplina |
-
-### Code Reviews Entre Equipes
-
-A partir do Sprint 2, cada equipe fará code review de outra equipe:
-
-1. **Semana do review**: Equipe A revisa código da Equipe B
-2. **Formato**: Pull Request com comentários construtivos
-3. **Prazo**: 48h após a entrega do sprint
-4. **Avaliação**: Qualidade e utilidade dos comentários
-
-### Frequência
+## Frequência
 
 - **Mínimo**: 75% de presença para aprovação
 - **Justificativas**: Via SIGAA até 48h após a falta
@@ -685,33 +598,9 @@ A partir do Sprint 2, cada equipe fará code review de outra equipe:
 
 ## Formação de Grupos
 
-### Requisitos
-
 - **Tamanho**: 3 a 4 pessoas
-- **Formação**: Até 12/03/2026
+- **Formação**: Até 12/03/2026 ✓
 - **Comunicação**: Grupo próprio no Discord
-
-### Processo
-
-1. **Até 10/03**: Encontre sua equipe
-2. **Até 12/03**: Registre no formulário (link no Discord)
-3. **Até 15/03**: Crie o grupo no Discord da disciplina
-4. **Até 26/03**: Defina o tema do projeto (Sprint 0)
-
-### Se Não Encontrar Grupo
-
-1. Poste no canal #procurando-grupo do Discord
-2. Participe dos grupos abertos
-3. O professor ajudará a formar grupos até 12/03
-
-### Avaliação Individual vs Grupo
-
-Embora o projeto seja em grupo, a avaliação considera:
-
-- **Commits no GitHub**: Distribuição do trabalho
-- **Participação nos vídeos**: Todos devem apresentar
-- **Code reviews**: Contribuição individual
-- **Conhecimento na apresentação**: Todos respondem perguntas
 
 ---
 
@@ -719,84 +608,60 @@ Embora o projeto seja em grupo, a avaliação considera:
 
 ### Avaliações Individuais (Listas e Prova)
 
-As **listas de exercícios** e a **prova prática** são avaliações **estritamente individuais**. Cada estudante deve desenvolver suas próprias soluções.
+As **listas de exercícios** e a **prova prática** são avaliações **estritamente individuais**.
 
-**Permitido:**
-- Consultar documentação oficial
-- Pesquisar conceitos e técnicas
-- Discutir ideias em alto nível com colegas
-- Usar snippets de código das aulas como base
+**Permitido**: consultar documentação oficial, pesquisar conceitos, discutir ideias em alto nível, usar snippets das aulas como base.
 
-**Não Permitido:**
-- Copiar código de colegas (total ou parcialmente)
-- Compartilhar soluções das listas
-- Usar ferramentas de IA para gerar código sem entender
-- Plagiar soluções da internet sem adaptação significativa
+**Não Permitido**: copiar código de colegas, compartilhar soluções das listas, usar ferramentas de IA para gerar código sem entender, plagiar soluções da internet sem adaptação significativa.
 
-### Avaliações em Grupo (Projeto)
+### Avaliações em Grupo (Projeto e Vídeo Final)
 
-O **projeto** (sprints e apresentação) é desenvolvido em equipe. A participação individual é avaliada através de:
+O **projeto** (sprints e Vídeo Final) é desenvolvido em equipe. A contribuição individual é avaliada através de:
 - Commits no repositório
-- Contribuição demonstrada nos vídeos
+- Presença demonstrada nos vídeos (todos devem aparecer no Vídeo Final)
 - Capacidade de responder perguntas sobre qualquer parte do código
-- Feedback dos colegas de equipe (quando solicitado)
-
-### Consequências
-
-- **1ª ocorrência**: Nota zero na atividade
-- **2ª ocorrência**: Reprovação na disciplina
-- **Casos graves**: Encaminhamento à coordenação
 
 ---
 
 ## Dúvidas Frequentes
+
+### Sobre o Vídeo Final (30/06)
+
+**P: Por que substituiu a apresentação presencial?**  
+R: Reorganização de cronograma após reposições. Vídeo dá mais flexibilidade para a equipe gravar com calma e permite uma janela maior para correção antes do fim do período.
+
+**P: Todos os membros precisam aparecer no vídeo?**  
+R: Sim, a presença de todos os membros entra no critério "Comunicação" na avaliação do Vídeo Final.
+
+**P: Posso usar vídeo gravado de sprint anterior?**  
+R: Não. O Vídeo Final tem estrutura própria (focada no MVP completo + exploração técnica). Pode reaproveitar slides ou recortes, mas o vídeo final deve ser único.
 
 ### Sobre os Exercícios
 
 **P: Posso fazer mais de um push?**  
 R: Sim! Cada push executa os testes novamente. Você pode iterar até o prazo.
 
-**P: E se os testes não passarem no prazo?**  
-R: A nota será proporcional aos testes que passaram no último push antes do prazo.
+**P: A Lista 5+6 é só uma entrega?**  
+R: Sim. As antigas Lista 5 e Lista 6 foram fundidas em uma única lista com 4 exercícios (auth básica, JWT, autorização, refresh + rate limit).
 
-**P: Posso usar bibliotecas externas?**  
-R: Apenas as indicadas no enunciado de cada exercício.
-
-**P: A Lista 4 depende de ter um banco rodando?**  
-R: Sim, você precisará de PostgreSQL local ou via Docker para testar.
-
-**P: Posso usar ORM ao invés de sqlc?**  
-R: Não nos exercícios. No projeto, o padrão é sqlc, mas aceito justificativa para alternativas.
+**P: Cadê a Lista 7?**  
+R: Removida na reorganização de 25/05. O conteúdo (gRPC) aparece no Vídeo Final como requisito de exploração técnica.
 
 ### Sobre os Sprints
 
-**P: O que acontece se não entregar um sprint?**  
-R: Zero no sprint específico. Cada sprint tem peso independente.
+**P: Cadê a Sprint 4?**  
+R: Mesclada com a apresentação final no Vídeo Final.
 
 **P: Posso reenviar o vídeo se ficou ruim?**  
 R: Sim, até o prazo. A última versão será avaliada.
-
-**P: Precisa ter código funcionando no Sprint 0?**  
-R: Não. O Sprint 0 é apenas a proposta e planejamento.
-
-**P: Posso mudar o tema do projeto depois?**  
-R: Sim, mas deve comunicar ao professor com justificativa.
-
-**P: Como gravar o vídeo?**  
-R: OBS Studio, Zoom, Google Meet, ou qualquer ferramenta. O importante é a qualidade do conteúdo.
 
 ### Sobre a Prova
 
 **P: Posso consultar documentação durante a prova?**  
 R: Apenas a documentação offline do Go (`go doc`). Sem internet.
 
-### Sobre os Grupos
-
-**P: Posso fazer o projeto sozinho?**  
-R: Não é recomendado. O mínimo é 3 pessoas.
-
-**P: Posso trocar de grupo depois?**  
-R: Apenas em casos excepcionais, com autorização do professor.
+**P: A prova cobra refresh tokens e OWASP?**  
+R: Não. A aula sobre esses tópicos é só em 09/06 (após a prova). A prova cobra os fundamentos de auth JWT vistos em 26/05.
 
 ---
 
@@ -814,26 +679,24 @@ R: Apenas em casos excepcionais, com autorização do professor.
 
 - **Presencial**: Após as aulas (14:40-15:10)
 - **Online**: Discord, resposta até 24h em dias úteis
-- **Acompanhamento de projeto**: Última quinta-feira de cada sprint (online via Google Meet)
+- **Acompanhamentos**: ver cronograma
 
 ---
 
 ## Checklist do Semestre
 
-### Início do Curso
-- [ ] Ambiente configurado (Go, Docker, PostgreSQL)
-- [ ] Acesso ao Discord da disciplina
-- [ ] Acesso ao GitHub Classroom
-- [ ] Grupo formado e registrado (até 12/03)
+### Início do Curso ✓
+- [x] Ambiente configurado (Go, Docker, PostgreSQL)
+- [x] Acesso ao Discord da disciplina
+- [x] Acesso ao GitHub Classroom
+- [x] Grupo formado e registrado
 
 ### Durante o Curso
 - [ ] Frequência ≥ 75%
-- [ ] Exercícios entregues no prazo
-- [ ] Sprints entregues com vídeo
-- [ ] Participação em code reviews
+- [ ] Exercícios entregues no prazo (Lista 5+6 até 03/06)
+- [ ] Sprint 3 entregue até 11/06
+- [ ] Prova realizada (02/06)
 
 ### Final do Curso
-- [ ] Prova realizada (02/06)
-- [ ] Projeto completo e funcionando
-- [ ] Apresentação final realizada (30/06 ou 02/07)
-- [ ] Todas as entregas consolidadas (até 04/07)
+- [ ] Vídeo Final entregue até 30/06
+- [ ] Todas as entregas consolidadas no SIGAA
