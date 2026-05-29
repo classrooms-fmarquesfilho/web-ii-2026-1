@@ -12,7 +12,7 @@
 > **⚠️ Atualização 25/05/2026**:
 > - **Listas 5 e 6 unificadas** em uma única **Lista 5+6** (auth + segurança + testes), prazo **03/06 (qua)**.
 > - **Lista 7 removida** do cronograma.
-> - **Sprint 3** com prazo prorrogado para **11/06 (qui)**.
+> - **Sprint 3** com prazo prorrogado para **16/06 (qui)**.
 > - **Sprint 4** mesclada com a Apresentação Final em um único entregável: o **Vídeo Final**, com prazo **30/06 (ter) às 23:59** (substitui a apresentação presencial).
 > - **Pesos redistribuídos** nas três unidades, com cada componente explicitado individualmente:
 >   - **U1**: Sprint 0 (30%) + Sprint 1 (40%) + Lista 1 (10%) + Lista 2 (10%) + Lista 3 (10%)
@@ -56,7 +56,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
 | Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
 | Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
-| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **11/06 (qui)** | U2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **16/06 (qui)** | U2 |
 
 > ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
@@ -67,7 +67,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
 | Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança + Testes | **11/06 (qui)** | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **16/06 (qui)** | 8 min |
 | **🎥 Vídeo Final** | MVP completo + gRPC/GraphQL (mescla Sprint 4 + apresentação) | **30/06 (ter)** | 12 min |
 
 ### Datas Especiais
@@ -78,14 +78,6 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | **Prova Prática** | **02/06 (ter)** | Laboratório, 13:00-14:40 |
 | **Vídeo Final** | **30/06 (ter)** | Substitui apresentação presencial |
 | Consolidação SIGAA | 11/07 | Término oficial do período |
-
-### Consolidação por Unidade
-
-| Unidade | Período | Entrega Final |
-|---------|---------|---------------|
-| U1 | 17/03 a 24/04 | 24/04 (sex) ✓ |
-| U2 | 25/04 a 11/06 | **11/06 (qui)** + Prova 02/06 |
-| U3 | 12/06 a 30/06 | **30/06 (ter)** |
 
 ---
 
@@ -547,7 +539,7 @@ Os exercícios utilizam **GitHub Classroom com autograding**, oferecendo:
 
 #### U1: Entregue ✓
 
-#### U2: Entrega até 11/06 (Sprint 3 + Listas) + Prova em 02/06
+#### U2: Entrega até 16/06 (Sprint 3 + Listas) + Prova em 02/06
 
 ```
 equipe-nome-u2.zip
@@ -693,8 +685,8 @@ R: Não. A aula sobre esses tópicos é só em 09/06 (após a prova). A prova co
 
 ### Durante o Curso
 - [ ] Frequência ≥ 75%
-- [ ] Exercícios entregues no prazo (Lista 5+6 até 03/06)
-- [ ] Sprint 3 entregue até 11/06
+- [ ] Exercícios entregues no prazo (Lista 5+6 até 16/06)
+- [ ] Sprint 3 entregue até 16/06
 - [ ] Prova realizada (02/06)
 
 ### Final do Curso
