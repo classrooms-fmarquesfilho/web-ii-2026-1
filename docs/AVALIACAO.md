@@ -12,7 +12,7 @@
 > **⚠️ Atualização 25/05/2026**:
 > - **Listas 5 e 6 unificadas** em uma única **Lista 5+6** (auth + segurança + testes), prazo **03/06 (qua)**.
 > - **Lista 7 removida** do cronograma.
-> - **Sprint 3** com prazo prorrogado para **16/06 (qui)**.
+> - **Sprint 3** com prazo prorrogado para **16/06 (ter)**.
 > - **Sprint 4** mesclada com a Apresentação Final em um único entregável: o **Vídeo Final**, com prazo **30/06 (ter) às 23:59** (substitui a apresentação presencial).
 > - **Pesos redistribuídos** nas três unidades, com cada componente explicitado individualmente:
 >   - **U1**: Sprint 0 (30%) + Sprint 1 (40%) + Lista 1 (10%) + Lista 2 (10%) + Lista 3 (10%)
@@ -56,7 +56,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
 | Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
 | Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
-| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **16/06 (qui)** | U2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **16/06 (ter)** | U2 |
 
 > ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
@@ -67,7 +67,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
 | Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança + Testes | **16/06 (qui)** | 8 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **16/06 (ter)** | 8 min |
 | **🎥 Vídeo Final** | MVP completo + gRPC/GraphQL (mescla Sprint 4 + apresentação) | **30/06 (ter)** | 12 min |
 
 ### Datas Especiais
