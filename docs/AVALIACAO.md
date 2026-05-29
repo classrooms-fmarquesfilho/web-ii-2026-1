@@ -237,9 +237,9 @@ Todo o material das **Unidades 1 e 2**:
 - sqlc e persistência
 - Relacionamentos 1:N e JOINs
 - Repository pattern (desacoplamento de camadas)
-- Autenticação JWT (fundamentos vistos em 26/05)
+- ˜Autenticação JWT (fundamentos vistos em 26/05)˜ (removido da prova)
 
-> Nota: refresh tokens, OWASP Top 10 e testes automatizados serão cobertos na aula extra de 09/06, **após** a prova. A prova foca nos fundamentos de autenticação (JWT, middleware, claims) e nos conceitos das unidades 1 e 2.
+> Nota: na prova só caem os conceitos vistos até a Sprint 2 e Lista 4.
 
 ### Formato da Prova
 
