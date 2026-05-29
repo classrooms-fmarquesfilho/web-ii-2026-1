@@ -52,8 +52,8 @@
 | Unidade | Sprints | Conteúdo Principal |
 |---------|---------|-------------------|
 | **U1** | Sprint 0 + Sprint 1 | Fundamentos Go + net/http + Chi + middleware |
-| **U2** | Sprint 2 + Sprint 3 + Prova | Persistência + Relacionamentos  |
-| **U3** | Conteúdo Final + Vídeo Final | Auth + Testes + **gRPC** + GraphQL |
+| **U2** | Sprint 2 + Prova | Persistência + Relacionamentos  |
+| **U3** | Sprint 3 + Entrega Final do Projeto | Auth + Testes + **gRPC** + GraphQL |
 
 ---
 
