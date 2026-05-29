@@ -162,22 +162,22 @@ A equipe implementa autenticação JWT completa, refresh tokens e middleware de 
 
 | Data | Dia | Tipo | Atividade |
 |------|-----|------|-----------|
-| 26/05 | Ter | 🟢 | **Autenticação**: JWT (estrutura, claims, assinatura HS256, middleware contra `alg: none`) + Refresh tokens + OAuth 2.0 flows (visão geral) |
+| 26/05 | Ter | 🟢 | **Autenticação**: JWT (estrutura, claims, assinatura HS256, middleware) + Refresh tokens |
 | 28/05 | Qui | 🔵 | **Acompanhamento Online** — Sprint 3 + Revisão para a prova de 02/06 |
 | 02/06 | Ter | 📚 | **PROVA PRÁTICA** — Unidades 1 e 2 (laboratório, 13:00-14:40) |
 | 04/06 | Qui | 🔴 | **Corpus Christi** — Sem aula |
-| 09/06 | Ter | 🟢 | Testes em Go (testing, testify, mocks, table-driven) + Segurança API (OWASP API Top 10 + rate limiting) |
+| 09/06 | Ter | 🟢 | OAuth 2.0 flows (visão geral) + Testes em Go (testing, testify, mocks, table-driven) + Segurança API (OWASP API Top 10 + rate limiting) |
 | 11/06 | Qui | 🔵 | **Acompanhamento Online** — Sprint 3 (fechamento, dúvidas finais antes da entrega) |
 
 ### Vídeos da Sprint
 
-- 📺 **Vídeo 7** (publicado até 27/05): Autenticação JWT + Refresh tokens + OAuth 2.0 em Go
-- 📺 **Vídeo 8** (publicado até 08/06): Testes em Go + Segurança API (OWASP Top 10 + rate limiting)
+- 📺 **Vídeo 7** (publicado até 27/05): Autenticação JWT + Refresh tokens
+- 📺 **Vídeo 8** (publicado até 08/06): OAuth 2.0 + Testes em Go + Segurança API (OWASP Top 10 + rate limiting)
 
 ### Entregas do Sprint
 
 - 📝 **Lista 5+6** unificada (auth JWT + autorização + refresh tokens + rate limiting + testes) — até **16/06 (ter) às 23:59**
-- 🚀 **Sprint 3** (vídeo 8min + auth + hardening + testes) — até **16/06 (ter)**
+- 🚀 **Sprint 3** (vídeo 8min + auth + segurança + testes) — até **16/06 (ter)**
 
 **Esperado no vídeo da Sprint 3**:
 1. Endpoint de login retornando JWT
