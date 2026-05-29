@@ -243,27 +243,11 @@ Todo o material das **Unidades 1 e 2**:
 
 ### Formato da Prova
 
-A prova consiste em **implementar uma mini-API** com requisitos específicos:
+- A prova será no multiprova com questões fechadas. 
+- Eu vou incluir alguns códigos incompletos e pedir pra vocês selecionarem a alternativa correta que completa o código. Não vai precisar usar o IDE.
+- Outras questões serão mais teóricas (não envolvem compreensão de um código que vocês precisam completar com as alternativas), no entanto tratam dos conceitos vistos na U1 e U2 (até a Sprint 2 / Lista 4). 
 
-1. **Setup inicial fornecido** (10min) — projeto base com estrutura definida, banco configurado, testes de validação prontos
-2. **Implementação** (80min) — handlers CRUD, middleware de autenticação, validação, testes
-3. **Execução dos testes** (10min) — testes de validação automáticos
-
-### Critérios de Avaliação da Prova
-
-| Critério | Peso |
-|----------|------|
-| Funcionalidade (testes passando) | 50% |
-| Qualidade do código | 20% |
-| Tratamento de erros | 15% |
-| Testes implementados | 15% |
-
-### Preparação
-
-- Revise as listas de exercícios 1-4 e a Lista 5+6
-- Pratique implementação de APIs do zero
-- Familiarize-se com os padrões do curso
-- Estude os exemplos das aulas
+Vocês poderão consultar uma folha A4 escrita à mão, e não será permitido a consulta a outro recurso. A ideia é manter somente o navegador aberto logado no multiprova
 
 ---
 
