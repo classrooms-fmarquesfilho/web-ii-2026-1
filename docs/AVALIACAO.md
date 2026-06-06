@@ -19,6 +19,12 @@
 >   - **U2**: Prova (20%) + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (10%) + Lista 5+6 (10%)
 >   - **U3**: Prova (50%) + Vídeo Final (50%)
 > - A **Sprint 1** passa a contar em U1 (deixa de pesar em U2). A **Prova** continua sendo uma única prova realizada em 02/06, com pesos diferentes em U2 (20%) e U3 (50%).
+>
+> **⚠️ Atualização 06/06/2026**:
+> - A **Prova foi adiada para 09/06 (ter)**. Pesos mantidos: 20% da U2 e 50% da U3.
+> - A **aula de 02/06 foi cancelada**; o conteúdo de testes + segurança fica no Vídeo 8 e não é foco da prova.
+> - A **Lista 5+6** passa a ser entregue em **19/06 (sex)**.
+> - A **Sprint 3 é fundida na Entrega Final do Projeto**, entregue em **23/06 (ter)** como **vídeo único**. Não há mais vídeo separado de Sprint 3: a mesma entrega é avaliada como **Sprint 3 (30% da U2)** e como **Vídeo Final (50% da U3)** — os pesos das duas unidades recaem sobre o mesmo entregável.
 
 ---
 
@@ -30,7 +36,7 @@ A avaliação é organizada em **3 unidades** com pesos iguais. A nota final é 
 Nota Final = (U1 + U2 + U3) / 3
 ```
 
-A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de U3.
+A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de U3.
 
 ### Tipos de Avaliação
 
@@ -56,7 +62,7 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
 | Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
 | Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
-| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **16/06 (ter)** | U2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **19/06 (sex)** | U2 |
 
 > ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
@@ -67,17 +73,16 @@ A **Prova Prática** é compartilhada entre U2 e U3, valendo 20% de U2 e 50% de 
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
 | Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança + Testes | **16/06 (ter)** | 8 min |
-| **🎥 Vídeo Final** | MVP completo + gRPC/GraphQL (mescla Sprint 4 + apresentação) | **30/06 (ter)** | 12 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **23/06 (ter)** | — |
+| **🎥 Vídeo Final** | MVP completo | **23/06 (ter)** | 12 min |
 
 ### Datas Especiais
 
 | Evento | Data | Observação |
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
-| **Prova Prática** | **02/06 (ter)** | Laboratório, 13:00-14:40 |
-| **Vídeo Final** | **30/06 (ter)** | Substitui apresentação presencial |
-| Consolidação SIGAA | 11/07 | Término oficial do período |
+| **Prova (Multiprova)** | **09/06 (ter)** | Laboratório, 13:00-14:40 |
+| **Vídeo Final** | **23/06 (ter)** | Substitui apresentação presencial |
 
 ---
 
@@ -120,11 +125,11 @@ U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| Prova | 20% | Individual | Prova prática em laboratório (02/06) |
+| Prova | 20% | Individual | Prova individual no Multiprova (09/06) |
 | Sprint 2 | 30% | Grupo | Persistência com PostgreSQL e relacionamentos 1:N (vídeo 8min) |
-| Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes (vídeo 8min) |
+| Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes — entregue na Entrega Final (23/06) |
 | Lista 4 | 10% | Individual | sqlc + Repository + filtros + JOIN 1:N — entregue ✓ |
-| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 03/06) |
+| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 19/06) |
 
 ### Fórmula
 
@@ -135,6 +140,8 @@ U2 = (Prova × 0.20)
 ```
 
 > Mudança 25/05: a **Prova** vale agora 20% de U2 (era 50%, redistribuída para dar peso individual a sprints e listas). Cada sprint vale 30% (Sprint 1 saiu para U1). Cada lista vale 10%. A Lista 5+6 absorveu o conteúdo das antigas Lista 5 e Lista 6, agora em uma única entrega com 4 exercícios.
+>
+> Mudança 06/06: a **Sprint 3 deixa de ter vídeo próprio** e é entregue dentro da **Entrega Final do Projeto (23/06)**. Os 30% de Sprint 3 (U2) e os 50% de Vídeo Final (U3) recaem a mesma entrega do último vídeo de projeto, avaliado segundo os critérios publicados na tarefa.
 
 ---
 
@@ -144,8 +151,8 @@ U2 = (Prova × 0.20)
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova Prática** | **50%** | Individual | Mesma prova da U2 (realizada em 02/06) |
-| **Vídeo Final** | 50% | Grupo | MVP completo + exploração técnica (gRPC ou GraphQL) — mescla Sprint 4 + Apresentação |
+| **Prova** | **50%** | Individual | Mesma prova da U2 (realizada em 09/06) |
+| **Vídeo Final** | 50% | Grupo | MVP completo |
 
 ### Fórmula
 
@@ -159,11 +166,11 @@ U3 = (Prova × 0.50) + (VídeoFinal × 0.50)
 
 ### Descrição
 
-O Vídeo Final é a **defesa do projeto** da equipe. Ele substitui tanto a antiga Sprint 4 (entrega técnica final) quanto a antiga apresentação presencial — agora unificadas em um único vídeo de 12 minutos.
+O Vídeo Final é a **apresentação do projeto** da equipe. Ele substitui a **Sprint 3** (entrega técnica de auth/segurança/testes), a antiga Sprint 4 e a antiga apresentação presencial — todas unificadas em um único vídeo de 12 minutos, entregue em **23/06**. Como absorve a Sprint 3, o vídeo deve **também** evidenciar: login retornando JWT, rotas protegidas por middleware, refresh token, ao menos 2 correções de segurança OWASP e ao menos 10 testes no CI.
 
 ### Informações Gerais
 
-- **Prazo**: **30/06/2026 (terça) às 23:59**
+- **Prazo**: **23/06/2026 (terça) às 23:59**
 - **Formato**: Vídeo gravado (link YouTube/Drive acessível)
 - **Duração**: **12 minutos**
 
@@ -213,17 +220,17 @@ O Vídeo Final é a **defesa do projeto** da equipe. Ele substitui tanto a antig
 
 ---
 
-## Prova Prática (20% de U2 + 50% de U3)
+## Prova (20% de U2 + 50% de U3)
 
 ### Informações Gerais
 
-- **Data**: 02/06/2026 (Terça-feira)
+- **Data**: 09/06/2026 (Terça-feira)
 - **Horário**: 13:00 às 14:40
 - **Local**: Laboratório A307 (IMD)
 - **Duração**: 1h40min
-- **Formato**: Individual, sem consulta externa
+- **Formato**: Individual, aplicada no **Multiprova** (sem consulta externa)
 
-A prova é uma única avaliação realizada em 02/06, com pesos diferentes em cada unidade: vale 20% da U2 e 50% da U3.
+A prova é uma única avaliação realizada em 09/06, com pesos diferentes em cada unidade: vale 20% da U2 e 50% da U3.
 
 ### Conteúdo
 
@@ -237,17 +244,29 @@ Todo o material das **Unidades 1 e 2**:
 - sqlc e persistência
 - Relacionamentos 1:N e JOINs
 - Repository pattern (desacoplamento de camadas)
-- ˜Autenticação JWT (fundamentos vistos em 26/05)˜ (removido da prova)
 
-> Nota: na prova só caem os conceitos vistos até a Sprint 2 e Lista 4.
+> Nota: **autenticação JWT, testes e segurança/OWASP estão excluídos da prova** — os alunos não tiveram tempo de praticar esses conceitos. Ficam por conta do **Vídeo 8** e são cobrados no projeto e na Lista 5+6. A prova concentra-se nos fundamentos das unidades 1 e 2 (Go, net/http, Chi, JSON/validação, sqlc, Repository).
 
 ### Formato da Prova
 
-- A prova será no multiprova com questões fechadas. 
-- Eu vou incluir alguns códigos incompletos e pedir pra vocês selecionarem a alternativa correta que completa o código. Não vai precisar usar o IDE.
-- Outras questões serão mais teóricas (não envolvem compreensão de um código que vocês precisam completar com as alternativas), no entanto tratam dos conceitos vistos na U1 e U2 (até a Sprint 2 / Lista 4). 
+A prova é aplicada no **Multiprova**, combinando questões de múltipla escolha, verdadeiro/falso, resposta curta e leitura/análise de código Go. A composição e a quantidade de questões serão definidas na própria prova.
 
-Vocês poderão consultar uma folha A4 escrita à mão, e não será permitido a consulta a outro recurso. A ideia é manter somente o navegador aberto logado no multiprova
+### Critérios de Avaliação da Prova
+
+A nota é a pontuação obtida no conjunto de questões do Multiprova, distribuída entre:
+
+| Critério | Peso |
+|----------|------|
+| Conceitos (HTTP, Go, Chi, middleware, JSON, validação) | 50% |
+| Persistência (sqlc, Repository, relacionamentos 1:N) | 30% |
+| Leitura/análise de código | 20% |
+
+### Preparação
+
+- Revise as listas de exercícios 1-4
+- Revise os conceitos e padrões do curso
+- Pratique leitura e depuração de código Go
+- Estude os exemplos das aulas
 
 ---
 
@@ -523,7 +542,7 @@ Os exercícios utilizam **GitHub Classroom com autograding**, oferecendo:
 
 #### U1: Entregue ✓
 
-#### U2: Entrega até 16/06 (Sprint 3 + Listas) + Prova em 02/06
+#### U2: Entrega até 23/06 (Sprint 3 + Listas) + Prova em 09/06
 
 ```
 equipe-nome-u2.zip
@@ -539,7 +558,7 @@ equipe-nome-u2.zip
     └── repo-link.txt           # Link do repositório do projeto
 ```
 
-#### U3: Entrega Final até 30/06
+#### U3: Entrega Final até 23/06
 
 ```
 equipe-nome-final.zip
@@ -601,7 +620,7 @@ O **projeto** (sprints e Vídeo Final) é desenvolvido em equipe. A contribuiç�
 
 ## Dúvidas Frequentes
 
-### Sobre o Vídeo Final (30/06)
+### Sobre o Vídeo Final (23/06)
 
 **P: Por que substituiu a apresentação presencial?**  
 R: Reorganização de cronograma após reposições. Vídeo dá mais flexibilidade para a equipe gravar com calma e permite uma janela maior para correção antes do fim do período.
@@ -634,10 +653,10 @@ R: Sim, até o prazo. A última versão será avaliada.
 ### Sobre a Prova
 
 **P: Posso consultar documentação durante a prova?**  
-R: Apenas a documentação offline do Go (`go doc`). Sem internet.
+R: Apenas a documentação oficial do Go e uma folha A4 manuscrita frente e verso.
 
 **P: A prova cobra refresh tokens e OWASP?**  
-R: Não. A aula sobre esses tópicos é só em 09/06 (após a prova). A prova cobra os fundamentos de auth JWT vistos em 26/05.
+R: Não. Auth JWT, testes e OWASP estão **excluídos da prova** (os alunos não tiveram tempo de praticar). Ficam no Vídeo 8 e são exercitados no projeto e na Lista 5+6. A prova foca nos fundamentos das unidades 1 e 2 (Go, net/http, Chi, JSON, sqlc, Repository).
 
 ---
 
@@ -669,10 +688,10 @@ R: Não. A aula sobre esses tópicos é só em 09/06 (após a prova). A prova co
 
 ### Durante o Curso
 - [ ] Frequência ≥ 75%
-- [ ] Exercícios entregues no prazo (Lista 5+6 até 16/06)
-- [ ] Sprint 3 entregue até 16/06
-- [ ] Prova realizada (02/06)
+- [ ] Exercícios entregues no prazo (Lista 5+6 até 19/06)
+- [ ] Entrega Final (Sprint 3 + Vídeo) até 23/06
+- [ ] Prova realizada (09/06)
 
 ### Final do Curso
-- [ ] Vídeo Final entregue até 30/06
+- [ ] Vídeo Final entregue até 23/06
 - [ ] Todas as entregas consolidadas no SIGAA
