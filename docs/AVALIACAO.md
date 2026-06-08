@@ -21,9 +21,9 @@
 > - A **Sprint 1** passa a contar em U1 (deixa de pesar em U2). A **Prova** continua sendo uma única prova realizada em 02/06, com pesos diferentes em U2 (20%) e U3 (50%).
 >
 > **⚠️ Atualização 06/06/2026**:
-> - A **Prova foi adiada para 09/06 (ter)**. Pesos mantidos: 20% da U2 e 50% da U3.
+> - A **Prova foi adiada para 11/06 (ter)**. Pesos mantidos: 20% da U2 e 50% da U3.
 > - A **aula de 02/06 foi cancelada**; o conteúdo de testes + segurança fica no Vídeo 8 e não é foco da prova.
-> - A **Lista 5+6** passa a ser entregue em **19/06 (sex)**.
+> - A **Lista 5+6** passa a ser entregue em **23/06 (ter)**.
 > - A **Sprint 3 é fundida na Entrega Final do Projeto**, entregue em **23/06 (ter)** como **vídeo único**. Não há mais vídeo separado de Sprint 3: a mesma entrega é avaliada como **Sprint 3 (30% da U2)** e como **Vídeo Final (50% da U3)** — os pesos das duas unidades recaem sobre o mesmo entregável.
 
 ---
@@ -62,7 +62,7 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
 | Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
 | Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
-| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **19/06 (sex)** | U2 |
+| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **23/06 (ter)** | U2 |
 
 > ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
@@ -81,7 +81,7 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Evento | Data | Observação |
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
-| **Prova (Multiprova)** | **09/06 (ter)** | Laboratório, 13:00-14:40 |
+| **Prova (Multiprova)** | **11/06 (ter)** | Laboratório, 13:00-14:40 |
 | **Vídeo Final** | **23/06 (ter)** | Substitui apresentação presencial |
 
 ---
@@ -125,11 +125,11 @@ U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| Prova | 20% | Individual | Prova individual no Multiprova (09/06) |
+| Prova | 20% | Individual | Prova individual no Multiprova (11/06) |
 | Sprint 2 | 30% | Grupo | Persistência com PostgreSQL e relacionamentos 1:N (vídeo 8min) |
 | Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes — entregue na Entrega Final (23/06) |
 | Lista 4 | 10% | Individual | sqlc + Repository + filtros + JOIN 1:N — entregue ✓ |
-| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 19/06) |
+| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 23/06) |
 
 ### Fórmula
 
@@ -151,7 +151,7 @@ U2 = (Prova × 0.20)
 
 | Componente | Peso | Tipo | Descrição |
 |------------|------|------|-----------|
-| **Prova** | **50%** | Individual | Mesma prova da U2 (realizada em 09/06) |
+| **Prova** | **50%** | Individual | Mesma prova da U2 (a ser realizada em 11/06) |
 | **Vídeo Final** | 50% | Grupo | MVP completo |
 
 ### Fórmula
@@ -224,13 +224,13 @@ O Vídeo Final é a **apresentação do projeto** da equipe. Ele substitui a **S
 
 ### Informações Gerais
 
-- **Data**: 09/06/2026 (Terça-feira)
+- **Data**: 11/06/2026 (Terça-feira)
 - **Horário**: 13:00 às 14:40
 - **Local**: Laboratório A307 (IMD)
 - **Duração**: 1h40min
 - **Formato**: Individual, aplicada no **Multiprova** (sem consulta externa)
 
-A prova é uma única avaliação realizada em 09/06, com pesos diferentes em cada unidade: vale 20% da U2 e 50% da U3.
+A prova é uma única avaliação realizada em 11/06, com pesos diferentes em cada unidade: vale 20% da U2 e 50% da U3.
 
 ### Conteúdo
 
@@ -542,7 +542,7 @@ Os exercícios utilizam **GitHub Classroom com autograding**, oferecendo:
 
 #### U1: Entregue ✓
 
-#### U2: Entrega até 23/06 (Sprint 3 + Listas) + Prova em 09/06
+#### U2: Entrega até 23/06 (Sprint 3 + Listas) + Prova em 11/06
 
 ```
 equipe-nome-u2.zip
@@ -688,9 +688,9 @@ R: Não. Auth JWT, testes e OWASP estão **excluídos da prova** (os alunos não
 
 ### Durante o Curso
 - [ ] Frequência ≥ 75%
-- [ ] Exercícios entregues no prazo (Lista 5+6 até 19/06)
+- [ ] Exercícios entregues no prazo (Lista 5+6 até 23/06)
 - [ ] Entrega Final (Sprint 3 + Vídeo) até 23/06
-- [ ] Prova realizada (09/06)
+- [ ] Prova realizada (11/06)
 
 ### Final do Curso
 - [ ] Vídeo Final entregue até 23/06
