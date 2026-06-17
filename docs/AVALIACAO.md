@@ -25,6 +25,13 @@
 > - A **aula de 02/06 foi cancelada**; o conteúdo de testes + segurança fica no Vídeo 8 e não é foco da prova.
 > - A **Lista 5+6** passa a ser entregue em **23/06 (ter)**.
 > - A **Sprint 3 é fundida na Entrega Final do Projeto**, entregue em **23/06 (ter)** como **vídeo único**. Não há mais vídeo separado de Sprint 3: a mesma entrega é avaliada como **Sprint 3 (30% da U2)** e como **Vídeo Final (50% da U3)** — os pesos das duas unidades recaem sobre o mesmo entregável.
+>
+> **⚠️ Atualização 17/06/2026**:
+> - **Listas 1–4 reabertas valendo 70%**: quem não submeteu pode entregar até **25/06 (qui)** por uma **tarefa de reposição** específica. Quem já entregou no prazo mantém a nota.
+> - **Lista 5+6 não será publicada** (sem tempo hábil). Será **resolvida no Vídeo 8** (Autenticação e Segurança — Parte 2). Os conceitos seguem sendo cobrados na **Entrega Final** (Sprint 3 / Vídeo Final).
+> - **Peso da Lista 5+6 redistribuído**: o peso que a Lista 5+6 tinha na U2 foi somado à **Lista 4** (de peso 1 para **peso 2**).
+> - **Notas da prova e das Listas 1–4 já estão disponíveis no SIGAA.**
+> - **Sem aula presencial nesta semana**; professor no Meet no horário das aulas (16 e 18/06) para dúvidas. Vídeos 8 e 9 a serem publicados nos próximos dias.
 
 ---
 
@@ -62,7 +69,8 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Lista 2 | net/http + middleware | 24/04 (sex) ✓ | U1 |
 | Lista 3 | Chi + OpenAPI + validator | 12/05 (ter) ✓ | U1 |
 | Lista 4 | sqlc + Repository + filtros + JOIN 1:N | 28/05 (qui) | U2 |
-| **Lista 5+6** (unificada) | Auth JWT + autorização + refresh + rate limit + testes | **23/06 (ter)** | U2 |
+| ~~**Lista 5+6**~~ | ~~Auth JWT + autorização + refresh + rate limit + testes~~ | **Não publicada** (resolvida no Vídeo 8) | — |
+| **Reabertura Listas 1–4** | Reposição (vale **70%**) para quem não submeteu | **25/06 (qui)** | U1/U2 |
 
 > ~~Lista 7 (Deploy + Observabilidade + gRPC)~~ — **removida** após reorganização de 25/05
 
@@ -81,7 +89,8 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Evento | Data | Observação |
 |--------|------|------------|
 | Formação de grupos | 12/03 | Registrar no Discord |
-| **Prova (Multiprova)** | **11/06 (ter)** | Laboratório, 13:00-14:40 |
+| **Prova (Multiprova)** | **11/06 (qui)** ✓ | Laboratório, 13:00-14:40 |
+| **Reabertura Listas 1–4** | **25/06 (qui)** | Tarefa de reposição, vale 70% |
 | **Vídeo Final** | **23/06 (ter)** | Substitui apresentação presencial |
 
 ---
@@ -91,7 +100,7 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Unidade | Componentes | Tipo |
 |---------|-------------|------|
 | **U1** | Sprint 0 (30%) + Sprint 1 (40%) + Listas 1, 2 e 3 (10% cada) | Grupo + Individual |
-| **U2** | Prova (20%) + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (10%) + Lista 5+6 (10%) | Individual + Grupo + Individual |
+| **U2** | Prova (20%) + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (20%) | Individual + Grupo + Individual |
 | **U3** | **Prova (50%)** + Vídeo Final (50%) | Individual + Grupo |
 
 ---
@@ -119,7 +128,7 @@ U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
 
 ---
 
-## Unidade 2 (Sprint 2 + Sprint 3 + Listas 4 e 5+6 + Prova)
+## Unidade 2 (Sprint 2 + Sprint 3 + Lista 4 + Prova)
 
 ### Componentes e Pesos
 
@@ -128,18 +137,17 @@ U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
 | Prova | 20% | Individual | Prova individual no Multiprova (11/06) |
 | Sprint 2 | 30% | Grupo | Persistência com PostgreSQL e relacionamentos 1:N (vídeo 8min) |
 | Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes — entregue na Entrega Final (23/06) |
-| Lista 4 | 10% | Individual | sqlc + Repository + filtros + JOIN 1:N — entregue ✓ |
-| Lista 5+6 | 10% | Individual | Auth JWT + autorização + refresh + rate limit + testes (prazo 23/06) |
+| Lista 4 | 20% | Individual | sqlc + Repository + filtros + JOIN 1:N (absorve o peso da Lista 5+6) — entregue ✓ |
 
 ### Fórmula
 
 ```
 U2 = (Prova × 0.20)
    + (Sprint2 × 0.30) + (Sprint3 × 0.30)
-   + (Lista4 × 0.10) + (Lista5+6 × 0.10)
+   + (Lista4 × 0.20)
 ```
 
-> Mudança 25/05: a **Prova** vale agora 20% de U2 (era 50%, redistribuída para dar peso individual a sprints e listas). Cada sprint vale 30% (Sprint 1 saiu para U1). Cada lista vale 10%. A Lista 5+6 absorveu o conteúdo das antigas Lista 5 e Lista 6, agora em uma única entrega com 4 exercícios.
+> Pesos da U2: Prova 20%, Sprint 2 30%, Sprint 3 30%, Lista 4 20%. A Lista 4 absorveu o peso que era da Lista 5+6 (que não será publicada — atualização de 17/06).
 >
 > Mudança 06/06: a **Sprint 3 deixa de ter vídeo próprio** e é entregue dentro da **Entrega Final do Projeto (23/06)**. Os 30% de Sprint 3 (U2) e os 50% de Vídeo Final (U3) recaem a mesma entrega do último vídeo de projeto, avaliado segundo os critérios publicados na tarefa.
 
@@ -636,8 +644,11 @@ R: Não. O Vídeo Final tem estrutura própria (focada no MVP completo + explora
 **P: Posso fazer mais de um push?**  
 R: Sim! Cada push executa os testes novamente. Você pode iterar até o prazo.
 
-**P: A Lista 5+6 é só uma entrega?**  
-R: Sim. As antigas Lista 5 e Lista 6 foram fundidas em uma única lista com 4 exercícios (auth básica, JWT, autorização, refresh + rate limit).
+**P: Não entreguei a Lista 1, 2, 3 ou 4. Ainda dá?**  
+R: Sim. As Listas 1–4 foram **reabertas valendo 70%**. Submeta pela **tarefa de reposição** específica até **25/06 (qui)**. Quem já entregou no prazo não precisa fazer nada — a nota original é mantida.
+
+**P: A Lista 5+6 vai ser publicada?**  
+R: Não. Por falta de tempo hábil, a Lista 5+6 **não será publicada como tarefa**. Ela é **resolvida no Vídeo 8** (Autenticação e Segurança — Parte 2). Os conceitos (JWT, autorização/ownership, refresh tokens, rate limiting, testes) seguem sendo cobrados na **Entrega Final**. O peso que ela tinha foi somado à **Lista 4**, que passa a valer 20% da U2 (peso 2 na planilha).
 
 **P: Cadê a Lista 7?**  
 R: Removida na reorganização de 25/05. O conteúdo (gRPC) aparece no Vídeo Final como requisito de exploração técnica.
