@@ -21,7 +21,7 @@
 > - A **Sprint 1** passa a contar em U1 (deixa de pesar em U2). A **Prova** continua sendo uma única prova realizada em 02/06, com pesos diferentes em U2 (20%) e U3 (50%).
 >
 > **⚠️ Atualização 06/06/2026**:
-> - A **Prova foi adiada para 11/06 (ter)**. Pesos mantidos: 20% da U2 e 50% da U3.
+> - A **Prova foi adiada para 11/06 (qui)**. Pesos mantidos: 20% da U2 e 50% da U3.
 > - A **aula de 02/06 foi cancelada**; o conteúdo de testes + segurança fica no Vídeo 8 e não é foco da prova.
 > - A **Lista 5+6** passa a ser entregue em **23/06 (ter)**.
 > - A **Sprint 3 é fundida na Entrega Final do Projeto**, entregue em **23/06 (ter)** como **vídeo único**. Não há mais vídeo separado de Sprint 3: a mesma entrega é avaliada como **Sprint 3 (30% da U2)** e como **Vídeo Final (50% da U3)** — os pesos das duas unidades recaem sobre o mesmo entregável.
@@ -32,6 +32,11 @@
 > - **Peso da Lista 5+6 redistribuído**: o peso que a Lista 5+6 tinha na U2 foi somado à **Lista 4** (de peso 1 para **peso 2**).
 > - **Notas da prova e das Listas 1–4 já estão disponíveis no SIGAA.**
 > - **Sem aula presencial nesta semana**; professor no Meet no horário das aulas (16 e 18/06) para dúvidas. Vídeos 8 e 9 a serem publicados nos próximos dias.
+>
+> **⚠️ Atualização 18/06/2026**:
+> - A **Entrega Final** (Sprint 3 / Vídeo Final) foi adiada de 23/06 para **29/06 (seg) às 23:59**. Os pesos não mudam.
+> - O **Vídeo 8 (Segurança em APIs — Autenticação e Segurança, Parte 2) foi publicado**, complementando o conteúdo da Entrega Final.
+> - Consolidação de notas no SIGAA ajustada para **03/07 (sex)**.
 
 ---
 
@@ -81,8 +86,8 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Sprint 0 | Proposta do projeto | 06/04 (dom) ✓ | 5 min |
 | Sprint 1 | API RESTful com Chi + middleware | 24/04 (sex) ✓ | 8 min |
 | Sprint 2 | Persistência com PostgreSQL e relacionamentos 1:N | 19/05 (ter) ✓ | 8 min |
-| Sprint 3 | Autenticação JWT + Segurança + Testes | **23/06 (ter)** | — |
-| **🎥 Vídeo Final** | MVP completo | **23/06 (ter)** | 12 min |
+| Sprint 3 | Autenticação JWT + Segurança + Testes | **29/06 (seg)** | — |
+| **🎥 Vídeo Final** | MVP completo | **29/06 (seg)** | 12 min |
 
 ### Datas Especiais
 
@@ -91,7 +96,7 @@ A **Prova** (aplicada no Multiprova) é compartilhada entre U2 e U3, valendo 20%
 | Formação de grupos | 12/03 | Registrar no Discord |
 | **Prova (Multiprova)** | **11/06 (qui)** ✓ | Laboratório, 13:00-14:40 |
 | **Reabertura Listas 1–4** | **25/06 (qui)** | Tarefa de reposição, vale 70% |
-| **Vídeo Final** | **23/06 (ter)** | Substitui apresentação presencial |
+| **Vídeo Final** | **29/06 (seg)** | Substitui apresentação presencial |
 
 ---
 
@@ -136,7 +141,7 @@ U1 = (Sprint0 × 0.30) + (Sprint1 × 0.40)
 |------------|------|------|-----------|
 | Prova | 20% | Individual | Prova individual no Multiprova (11/06) |
 | Sprint 2 | 30% | Grupo | Persistência com PostgreSQL e relacionamentos 1:N (vídeo 8min) |
-| Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes — entregue na Entrega Final (23/06) |
+| Sprint 3 | 30% | Grupo | Autenticação JWT + segurança + testes — entregue na Entrega Final (29/06) |
 | Lista 4 | 20% | Individual | sqlc + Repository + filtros + JOIN 1:N (absorve o peso da Lista 5+6) — entregue ✓ |
 
 ### Fórmula
@@ -149,7 +154,7 @@ U2 = (Prova × 0.20)
 
 > Pesos da U2: Prova 20%, Sprint 2 30%, Sprint 3 30%, Lista 4 20%. A Lista 4 absorveu o peso que era da Lista 5+6 (que não será publicada — atualização de 17/06).
 >
-> Mudança 06/06: a **Sprint 3 deixa de ter vídeo próprio** e é entregue dentro da **Entrega Final do Projeto (23/06)**. Os 30% de Sprint 3 (U2) e os 50% de Vídeo Final (U3) recaem a mesma entrega do último vídeo de projeto, avaliado segundo os critérios publicados na tarefa.
+> Mudança 06/06: a **Sprint 3 deixa de ter vídeo próprio** e é entregue dentro da **Entrega Final do Projeto (29/06)**. Os 30% de Sprint 3 (U2) e os 50% de Vídeo Final (U3) recaem a mesma entrega do último vídeo de projeto, avaliado segundo os critérios publicados na tarefa.
 
 ---
 
@@ -174,11 +179,11 @@ U3 = (Prova × 0.50) + (VídeoFinal × 0.50)
 
 ### Descrição
 
-O Vídeo Final é a **apresentação do projeto** da equipe. Ele substitui a **Sprint 3** (entrega técnica de auth/segurança/testes), a antiga Sprint 4 e a antiga apresentação presencial — todas unificadas em um único vídeo de 12 minutos, entregue em **23/06**. Como absorve a Sprint 3, o vídeo deve **também** evidenciar: login retornando JWT, rotas protegidas por middleware, refresh token, ao menos 2 correções de segurança OWASP e ao menos 10 testes no CI.
+O Vídeo Final é a **apresentação do projeto** da equipe. Ele substitui a **Sprint 3** (entrega técnica de auth/segurança/testes), a antiga Sprint 4 e a antiga apresentação presencial — todas unificadas em um único vídeo de 12 minutos, entregue em **29/06**. Como absorve a Sprint 3, o vídeo deve **também** evidenciar: login retornando JWT, rotas protegidas por middleware, refresh token, ao menos 2 correções de segurança OWASP e ao menos 10 testes no CI.
 
 ### Informações Gerais
 
-- **Prazo**: **23/06/2026 (terça) às 23:59**
+- **Prazo**: **29/06/2026 (segunda) às 23:59**
 - **Formato**: Vídeo gravado (link YouTube/Drive acessível)
 - **Duração**: **12 minutos**
 
@@ -550,7 +555,7 @@ Os exercícios utilizam **GitHub Classroom com autograding**, oferecendo:
 
 #### U1: Entregue ✓
 
-#### U2: Entrega até 23/06 (Sprint 3 + Listas) + Prova em 11/06
+#### U2: Entrega até 29/06 (Sprint 3 + Listas) + Prova em 11/06
 
 ```
 equipe-nome-u2.zip
@@ -566,7 +571,7 @@ equipe-nome-u2.zip
     └── repo-link.txt           # Link do repositório do projeto
 ```
 
-#### U3: Entrega Final até 23/06
+#### U3: Entrega Final até 29/06
 
 ```
 equipe-nome-final.zip
@@ -628,7 +633,7 @@ O **projeto** (sprints e Vídeo Final) é desenvolvido em equipe. A contribuiç�
 
 ## Dúvidas Frequentes
 
-### Sobre o Vídeo Final (23/06)
+### Sobre o Vídeo Final (29/06)
 
 **P: Por que substituiu a apresentação presencial?**  
 R: Reorganização de cronograma após reposições. Vídeo dá mais flexibilidade para a equipe gravar com calma e permite uma janela maior para correção antes do fim do período.
@@ -699,10 +704,10 @@ R: Não. Auth JWT, testes e OWASP estão **excluídos da prova** (os alunos não
 
 ### Durante o Curso
 - [ ] Frequência ≥ 75%
-- [ ] Exercícios entregues no prazo (Lista 5+6 até 23/06)
-- [ ] Entrega Final (Sprint 3 + Vídeo) até 23/06
+- [ ] Listas em dia (reabertura das Listas 1–4 até 25/06)
+- [ ] Entrega Final (Sprint 3 + Vídeo) até 29/06
 - [ ] Prova realizada (11/06)
 
 ### Final do Curso
-- [ ] Vídeo Final entregue até 23/06
+- [ ] Vídeo Final entregue até 29/06
 - [ ] Todas as entregas consolidadas no SIGAA

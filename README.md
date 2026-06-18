@@ -170,11 +170,11 @@ Semanas 1-4:   Fundamentos Go + net/http puro (HTTP, handlers, middleware, valid
 Semana 5:      Chi avançado + OpenAPI
 Semanas 6-8:   Persistência com sqlc (CRUD + relacionamentos 1:N)
 Semanas 9-10:  Autenticação + Segurança + Testes
-Semana 11:     Revisão e Prova Prática (02/06)
+Semana 11:     Revisão e Prova no Multiprova (11/06)
 Semanas 12-13: CI/CD + Observabilidade
 Semana 14:     GraphQL (paradigma alternativo)
 Semana 15:     Concorrência
-Semanas 16-17: Apresentações finais + Encerramento
+Semanas 16-17: Entrega Final em vídeo (29/06) + Encerramento
 ```
 
 ### Correção Automática de Exercícios
@@ -200,13 +200,13 @@ Nota Final = (U1 + U2 + U3) / 3
 
 | Unidade | Período | Componentes |
 |---------|---------|-------------|
-| **U1** | Semanas 1-5 | Sprint 0 (60%) + Listas 1-3 (40%) |
-| **U2** | Semanas 6-11 | **Prova (50%)** + Sprints 1-3 (35%) + Listas 4-5 (15%) |
-| **U3** | Semanas 12-17 | **Prova (50%)** + Projeto Final (45%) + Lista 6 (5%) |
+| **U1** | Semanas 1-5 | Sprint 0 (30%) + Sprint 1 (40%) + Listas 1-3 (10% cada) |
+| **U2** | Semanas 6-11 | **Prova (20%)** + Sprint 2 (30%) + Sprint 3 (30%) + Lista 4 (20%) |
+| **U3** | Semanas 12-17 | **Prova (50%)** + Vídeo Final (50%) |
 
-A **Prova Prática** (02/06) vale 50% de U2 e 50% de U3, equivalendo a uma unidade completa.
+A **Prova** (Multiprova, 11/06) vale 20% de U2 e 50% de U3. A **Entrega Final do projeto** (Sprint 3 + Vídeo Final) é em **29/06 (seg)**.
 
-> **Nota**: A participação individual é avaliada dentro dos componentes de grupo (Sprint 0, Sprints 1-3, Projeto Final).
+> **Nota**: A participação individual é avaliada dentro dos componentes de grupo (Sprint 0, Sprints, Vídeo Final).
 
 Detalhes completos em [docs/AVALIACAO.md](docs/AVALIACAO.md).
 
